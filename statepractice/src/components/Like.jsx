@@ -6,7 +6,6 @@ function Like() {
 
   const handleLikedChange = () => {
     setIsLiked(!isLiked);
-    console.log(setIsLiked)
     
   };
   return (
