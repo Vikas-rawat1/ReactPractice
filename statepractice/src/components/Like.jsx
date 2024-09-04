@@ -5,7 +5,7 @@ function Like() {
   const [isLiked, setIsLiked] = useState(false);
 
   const handleLikedChange=()=>{
-    setIsLiked()
+    setIsLiked(!)
   }
   return (
     <>
