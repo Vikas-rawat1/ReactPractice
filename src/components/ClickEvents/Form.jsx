@@ -2,7 +2,7 @@ function Form() {
   let handleFormData = (event) => {
     event.preventDefault(); // Prevent form from submitting automatically and prevent it refreshing too fast when click on submit
     console.log("Form was submitted");
-  };
+  }
 
   return (
     <>
