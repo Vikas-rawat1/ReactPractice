@@ -5,7 +5,7 @@ function Counter() {
   // const handleClickOnCount = () => {
   //   setCount(count + 1);
   // };
-  // console.log(count);
+  // console.log(coun
   return (
     <div>
       {/* <button onClick={handleClickOnCount}>Click me {count}</button> */}
