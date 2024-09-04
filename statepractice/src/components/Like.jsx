@@ -1,5 +1,5 @@
 import { RiHeartFill } from "@remixicon/react";
-import React from "react";
+
 
 function Like() {
   return (
