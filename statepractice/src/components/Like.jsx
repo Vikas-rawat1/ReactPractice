@@ -6,7 +6,7 @@ function Like() {
     <>
       <RiHeartFill
         size={36} 
-        color="red" // set `fill` color
+        color="red" 
         className="my-icon" // add custom class name
       />
     </>
