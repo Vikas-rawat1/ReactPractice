@@ -3,6 +3,10 @@ import { useState } from "react";
 
 function Like() {
   const [isLiked, setIsLiked] = useState(false);
+
+  const handleLikedChange=()=>{
+    
+  }
   return (
     <>
       <RiHeartFill size={36} color="white" className="my-icon" />
