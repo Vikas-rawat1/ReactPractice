@@ -8,7 +8,7 @@ function Form() {
     <>
       {/* <form onSubmit={handleFormData}> */}
       <form>
-        <input ="text" placeholder="Enter a text" />
+        <input type="text" placeholder="Enter a text" />
         <button onClick={handleFormData}>Submit</button>
       </form>
     </>
