@@ -6,7 +6,7 @@ function Form() {
 
   return (
     <>
-      {/* <form ={handleFormData}> */}
+      {/* <form onSubmit={handleFormData}> */}
       <form>
         <input type="text" placeholder="Enter a text" />
         <button onClick={handleFormData}>Submit</button>
