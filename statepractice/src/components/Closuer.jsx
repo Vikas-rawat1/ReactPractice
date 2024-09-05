@@ -1,0 +1,3 @@
+function Closure() {
+  return <></>;
+}
