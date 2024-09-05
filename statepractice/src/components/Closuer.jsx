@@ -1,4 +1,4 @@
 function Closure() {
-  return <></>;
+  return <></>
 }
 export default Closure;
