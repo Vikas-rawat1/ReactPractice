@@ -19,7 +19,7 @@ function Like() {
           <RiHeartFill size={36} color="white" className="my-icon" />
         )}
       
-    </
+    <
   );
 }
 
