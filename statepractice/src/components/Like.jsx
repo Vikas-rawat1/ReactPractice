@@ -10,7 +10,7 @@ function Like() {
     // setClicks(clicks + 1); 
   };
   return (
-    <
+    <>
       {/* <p>Clicks= {clicks}</p> */}
       <p onClick={handleLikedChange}>
         {isLiked ? (
