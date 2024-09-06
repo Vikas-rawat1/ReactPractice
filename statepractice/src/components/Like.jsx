@@ -17,7 +17,6 @@ function Like() {
           <RiHeartFill size={36} color="red" className="my-icon" />
         ) : (
           <RiHeartFill size={36} color="white" className="my-icon" />
-
   );
 
 
