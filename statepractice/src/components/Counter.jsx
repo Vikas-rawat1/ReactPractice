@@ -12,7 +12,7 @@ function Counter() {
       {/* <button onClick={handleClickOnCount}>Click me {count}</button> */}
       <button onClick={() => setCount(count + 1)}>Click me {count}</button>
     </div>
-  );
+  ); 
 }
 
 export default Counter;
