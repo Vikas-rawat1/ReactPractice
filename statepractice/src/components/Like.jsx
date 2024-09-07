@@ -11,7 +11,7 @@ function Like() {
   };
   return (
     <>
-      <p>Clicks= {clicks}</p>
+      {/* <p>Clicks= {clicks}</p> */}
       <p onClick={handleLikedChange}>
         {isLiked ? (
           <RiHeartFill size={36} color="red" className="my-icon" />
