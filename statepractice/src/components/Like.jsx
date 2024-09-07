@@ -6,7 +6,7 @@ function Like() {
   // const [clicks, setClicks] = useState(0);
 
   const handleLikedChange = () => {
-    setIsLiked(!isLiked);
+    // setIsLiked(!isLiked);
     // setClicks(clicks + 1); 
   };
   return (
