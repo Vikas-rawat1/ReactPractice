@@ -9,7 +9,7 @@ function Counter() {
   console.log(count);
   return ( 
     <div>
-      <button onClick={handleClickOnCount}>Click me {count}</button>
+      {/* <button onClick={handleClickOnCount}>Click me {count}</button> */}
       <button onClick={() => setCount(count + 1)}>Click me {count}</button>
     </div>
   );
