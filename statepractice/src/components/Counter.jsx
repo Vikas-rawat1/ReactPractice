@@ -4,7 +4,7 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   // const handleClickOnCount = () => {
-  //   setCount(count + 1);
+    setCount(count + 1);
   // };
   // console.log(count);
   return ( 
