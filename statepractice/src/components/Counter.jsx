@@ -13,6 +13,6 @@ function Counter() {
       <button onClick={() => setCount(count + 1)}>Click me {count}</button>
     </div>
   );
-}
+} 
 
 export default Counter;
