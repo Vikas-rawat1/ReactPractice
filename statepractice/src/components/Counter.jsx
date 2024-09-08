@@ -1,11 +1,14 @@
 import { useState } from "react";
 
 function init() {
-  return Math.floor(Math.random() * 10) + 1;
+  console.log("init was called");
+  return Math.random() * 10;
+  // return Math.random() * 10;//agar init() ko execute karenge to time and memory use hoga 
 }
 
 function Counter() {
-  const [count, setCount] = useState(init());
+  const [count, setCount] = useState(init); //pass only in refrence not to execute the function itself (init()) ab ish se init was called (init() function) ek hi baar execute hoga 
+
   console.log("component was rendered");
   // const handleClickOnCount = () => {
   //   setCount(count + 1);
