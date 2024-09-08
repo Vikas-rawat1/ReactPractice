@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
-console.log("component was re-rendered")
+console.log("component was rendered")
   // const handleClickOnCount = () => {
   //   setCount(count + 1);
   // };
