@@ -9,7 +9,7 @@ function init() {
 function Counter() {
   const [count, setCount] = useState(init); //pass only in refrence not to execute the function itself (init()) ab ish se init was called (init() function) ek hi baar execute hoga
 
-  console.log("component was rendered"); 
+  console.log("component was rendered");
   // const handleClickOnCount = () => {
   //   setCount(count + 1);
   // };
