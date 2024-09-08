@@ -1,11 +1,11 @@
-// import Counter from "./components/Counter";
+import Counter from "./components/Counter";
 import Like from "./components/Like";
 
 function App() {
   return (
     <>
-      {/* <Counter /> */}
-      <Like/>
+      <Counter />
+      {/* <Like/> */}
     </>
   );
 }

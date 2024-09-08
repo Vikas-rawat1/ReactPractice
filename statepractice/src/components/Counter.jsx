@@ -6,11 +6,24 @@ function Counter() {
   // const handleClickOnCount = () => {
   //   setCount(count + 1);
   // };
+  
+  // 🌟🌟CALLBACK USE
+  let counter = () => {
+    setCount(
+      (inCount) =>
+        inCount + 2 // Return the new value of count after incrementing it
+    );
+    setCount(
+      (inCount) =>
+        inCount + 2 // Return the new value of count after incrementing it
+    );
+  };
+
   // console.log(count);
-  return ( 
+  return (
     <div>
-      {/* <button onClick={handleClickOnCount}>Click me {count}</button> */}
-      <button onClick={() => setCount(count + 1)}>Click me {count}</button>
+      <button onClick={counter}>Click me {count}</button>
+      {/* <button onClick={() => setCount(count + 1)}>Click me {count}</button> */}
     </div>
   );
 }
