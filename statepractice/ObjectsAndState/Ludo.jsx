@@ -3,7 +3,7 @@ function Ludo() {
     <div>
       <p>Blue Move</p>
       <button>+1</button>
-      <p>Blue Move</p>
+      <p>Yellow Move</p>
       <button>+1</button>
       <p>Blue Move</p>
       <button>+1</button>
