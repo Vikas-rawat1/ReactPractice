@@ -1,6 +1,9 @@
+import { useState } from "react";
+
 function Ludo() {
   //instead of creating a sperate STATE we will create a object
-  
+  const [] = useState();
+
   return (
     <>
       <div>
