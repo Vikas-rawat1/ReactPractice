@@ -8,7 +8,7 @@ function Ludo() {
     <>
       <div>
         <p>Blue Move ={moves.blue}</p>
-        <button className="bg-blue-500">+1</button>
+        <button style={{backgroundColor:"blue"}}>+1</button>
         <p>Yellow Move ={moves.yellow}</p>
         <button>+1</button>
         <p>Green Move ={moves.green}</p>
