@@ -1,6 +1,8 @@
 function Ludo() {
   return <>
-    <div></div>
-  </>;
-}
+    <div>
+      <p>Blue Move</p>
+      <button>+1</button>
+    </div>
+  </>;}
 export default Ludo;
