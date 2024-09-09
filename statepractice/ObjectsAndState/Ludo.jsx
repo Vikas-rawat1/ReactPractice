@@ -7,7 +7,7 @@ function Ludo() {
   let updateBlue = () => {
     moves.blue += 1;
     console.log(moves)
-    setMoves(...moves)
+    setMoves(moves)
   };
 
   return (
