@@ -1,4 +1,6 @@
 function Ludo() {
-  return <>ddsd</>;
+  return <>
+    <div></div>
+  </>;
 }
 export default Ludo;
