@@ -8,7 +8,7 @@ function Ludo() {
     // moves.blue += 1;
     // console.log(moves);
     setMoves({ ...moves, blue: (moves.blue += 1) }); // if we want to change the object state ,then we need to copy the state through spread operator and it will render it onclick
-  };  
+  };
   let updateYellow = () => {
     // moves.yellow += 1;
     // console.log(moves);
