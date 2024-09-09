@@ -1,4 +1,4 @@
 function Ludo() {
   return <></>;
 }
-export default
+export default Ludo
