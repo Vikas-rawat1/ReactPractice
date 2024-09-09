@@ -4,7 +4,7 @@ import Like from "./components/Like";
 function App() {
   return (
     <>
-      <Counter />
+      {/* <Counter /> */}
       {/* <Like/> */}
     </>
   );
