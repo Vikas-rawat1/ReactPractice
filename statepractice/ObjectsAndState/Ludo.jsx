@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Ludo() {
   //instead of creating a sperate STATE we will create a object
-  const [moves, setMoves] = useState({});
+  const [moves, setMoves] = useState({blue:0,});
 
   return (
     <>
