@@ -14,7 +14,7 @@ function Ludo() {
         <p>Green Move ={moves.green}</p>
         <button style={{backgroundColor:"green"}}>+1</button>
         <p>Red Move ={moves.red}</p>
-        <button style={{backgroundColor:""}}>+1</button>
+        <button style={{backgroundColor:"red"}}>+1</button>
       </div>
     </>
   );
