@@ -9,7 +9,7 @@ function Ludo() {
     console.log(moves)
     setMoves(moves)
   };
-
+ 
   return (
     <>
       <div>
