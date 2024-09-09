@@ -11,7 +11,7 @@ function Ludo() {
         <button>+1</button>
         <p>Yellow Move ={moves.yellow}</p>
         <button>+1</button>
-        <p>Green Move ={moves.blue}</p>
+        <p>Green Move ={moves.green}</p>
         <button>+1</button>
         <p>Red Move ={moves.blue}</p>
         <button>+1</button>
