@@ -1,3 +1,3 @@
-function Ludo(){
-  return ()
+function Ludo() {
+  return <></>;
 }
