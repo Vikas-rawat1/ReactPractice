@@ -6,6 +6,7 @@ function Ludo() {
 
   let updateBlue = () => {
     moves.blue += 1;
+    moves.green += 1;
     console.log(moves)
     setMoves({...moves})// if we want to change the object state ,then we need to copy the state through spread operator and it will render it onclick 
   };
