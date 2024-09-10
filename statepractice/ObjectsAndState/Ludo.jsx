@@ -19,7 +19,7 @@ function Ludo() {
       return { ...prevMoves, yellow: prevMoves.yellow + 1 };
     });
   };   
-  let updateGr een = () => {
+  let updateGreen = () => {
     // moves.green += 1;
     // console.log(moves);
     setMoves({ ...moves, green: (moves.green += 1) });
