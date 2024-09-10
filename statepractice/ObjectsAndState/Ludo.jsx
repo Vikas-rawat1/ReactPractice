@@ -11,7 +11,7 @@ function Ludo() {
   };
   let updateYellow = () => {
     // moves.yellow += 1; 
-    // console.log(moves);
+    // console.log(moves); 
     // setMoves({ ...moves, yellow: (moves.yellow += 1) });
 
     // 🌟🌟 Using Callbacks
