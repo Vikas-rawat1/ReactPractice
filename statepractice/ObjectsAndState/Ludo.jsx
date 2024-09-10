@@ -48,7 +48,7 @@ function Ludo() {
         <button onClick={updateGreen} style={{ backgroundColor: "green" }}>
           +1
         </button>
-        <p>Red Move ={moves.red}</p>
+        {/* <p>Red Move ={moves.red}</p> */}
         <button onClick={updateRed} style={{ backgroundColor: "red" }}>
           +1
         </button>
