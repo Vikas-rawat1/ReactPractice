@@ -25,7 +25,7 @@ function Ludo() {
     setMoves({ ...moves, green: (moves.green += 1) });
   };
   let updateRed = () => {
-    moves.red += 1;
+    // moves.red += 1;
     console.log(moves);
     setMoves({ ...moves, red: (moves.red += 1) });
   };
