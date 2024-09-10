@@ -12,7 +12,7 @@ function Ludo() {
   let updateYellow = () => {
     moves.yellow += 1;
     console.log(moves);
-    // setMoves({ ...moves, yellow: (moves.yellow += 1) });
+    setMoves({ ...moves, yellow: (moves.yellow += 1) });
 
     // 🌟🌟 Using Callbacks
     setMoves((prevMoves) => {
