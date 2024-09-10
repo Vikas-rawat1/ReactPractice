@@ -51,7 +51,7 @@ function Ludo() {
         <p>Red Move ={moves.red}</p>
         {/* <button onClick={updateRed} style={{ backgroundColor: "red" }}> */}
           +1
-        </button>
+        {/* </button> */}
       </div>
     </>
   );
