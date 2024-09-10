@@ -38,12 +38,12 @@ function Ludo() {
           +1
         </button>
         <p>Yellow Move ={moves.yellow}</p>
-        <button
+        {/* <button */}
           onClick={updateYellow}
           style={{ backgroundColor: "yellow", color: "black" }}
         >
           +1
-        </button>
+        {/* </button> */}
         <p>Green Move ={moves.green}</p>
         <button onClick={updateGreen} style={{ backgroundColor: "green" }}>
           +1
