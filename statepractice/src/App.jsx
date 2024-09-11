@@ -8,7 +8,7 @@ function App() {
     <>
       {/* <Counter /> */}
       {/* <Like/> */}
-      <Ludo/>
+      {/* <Ludo/> */}
       <Array/>
     </>
   );
