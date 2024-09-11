@@ -4,7 +4,11 @@ function Todo() {
   return (
     <>
       <div>
-        <input type="text" placeholder="Add a Task" />
+        <input
+          style={{ outline: "none" }}
+          type="text"
+          placeholder="Add a Task"
+        />
       </div>
     </>
   );
