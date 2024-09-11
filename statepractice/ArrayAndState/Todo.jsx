@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Todo() {
+  let [inputVal, setInputVal] = useState();
   return (
     <>
       <div>
