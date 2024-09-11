@@ -34,7 +34,30 @@ function Todo() {
         <div>
           <ul>
             {todo.map((val, inx) => {
-              return <li key={inx}>{val}</li>;
+              return (
+                <div key={inx}>
+                  {/* <li>
+                <button onClick={() => {
+                  setTodo(todo.filter((item, index) => index!== inx));
+                }}>
+                  Delete
+                </button>
+                {val}
+              </li> */}
+                  <div
+                    style={{
+                      display: "flex",
+                      height: "10vw",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      gap: "2vw",
+                    }}
+                  >
+                    <li style={{ listStyle: "none" }}>{val}</li>
+                    <button>Delete</button>
+                  </div>
+                </div>
+              );
             })}
           </ul>
         </div>
