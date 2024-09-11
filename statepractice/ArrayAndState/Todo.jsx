@@ -1,7 +1,13 @@
 import React from "react";
 
 function Todo() {
-  return <div>Todo</div>;
+  return (
+    <>
+      <div>
+        <input type="text" />
+      </div>
+    </>
+  );
 }
 
 export default Todo;
