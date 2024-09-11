@@ -8,6 +8,7 @@ function App() {
       {/* <Counter /> */}
       {/* <Like/> */}
       <Ludo/>
+      <Array/>
     </>
   );
 }
