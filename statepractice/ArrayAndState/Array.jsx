@@ -6,6 +6,7 @@ function Array() {
     <>
       <div>
         <p>Array and State Practice</p>
+        <button style={{backgroundColor:"blue"}}>Move</button>
       </div>
     </>
   );
