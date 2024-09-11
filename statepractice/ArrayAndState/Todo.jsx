@@ -10,6 +10,7 @@ function Todo() {
   let addNewTask = () => {
     console.log("New task added");
     setTodo([...todo, inputVal]);
+    setInputVal(""); //clear the input field after adding a new task
   };
 
   return (
