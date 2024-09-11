@@ -1,4 +1,4 @@
 function Array() {
-  return <></>;
+  return <>d</>;
 }
 export default Array;
