@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 function Array() {
+  let [] = useState();
   return (
     <>
       <div>
