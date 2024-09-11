@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Array() {
-  let [] = useState();
+  let [arr, setArr] = useState();
   return (
     <>
       <div>
