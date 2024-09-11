@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Array() {
-  const [move, setMove] = useState();
+  const [move, setMove] = useState({ blue: 0 });
   let [arr, setArr] = useState(["moves pass"]); //passing / initializing with array
   return (
     <>
