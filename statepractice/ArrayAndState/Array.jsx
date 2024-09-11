@@ -1,3 +1,3 @@
-function Array(){
-  
+function Array() {
+  return <></>;
 }
