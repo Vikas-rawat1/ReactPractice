@@ -7,7 +7,7 @@ function Array() {
     <>
       <div>
         <p>Array and State Practice</p>
-        <p>Moves= {move}</p>
+        <p>Moves= {move.blue}</p>
         <button style={{ backgroundColor: "blue" }}>Move</button>
       </div>
     </>
