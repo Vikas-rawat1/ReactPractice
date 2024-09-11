@@ -6,7 +6,8 @@ function Array() {
     <>
       <div>
         <p>Array and State Practice</p>
-        <button style={{backgroundColor:"blue"}}>Move</button>
+        <p>Moves= {move}</p>
+        <button style={{ backgroundColor: "blue" }}>Move</button>
       </div>
     </>
   );
