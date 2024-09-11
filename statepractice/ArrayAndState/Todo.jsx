@@ -4,7 +4,7 @@ function Todo() {
   return (
     <>
       <div>
-        <input type="text" />
+        <input type="text" placeholder="Add a Task" />
       </div>
     </>
   );
