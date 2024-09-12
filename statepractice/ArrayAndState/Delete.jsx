@@ -1,12 +1,22 @@
 import React, { useState } from "react";
 
 function Delete() {
-  const [deleteItem, setDeleteItem] = useState(["hello","vikas"]);
+  // const [deleteItem, setDeleteItem] = useState(["hello", "vikas"]);
+  const [addItem, setAddItem] = useState("");
+  const [deleteItem, setDeleteItem] = useState([]);
+
+  const handleDeletion = () => {
+    setAddItem({ ...addItem, addItem });
+  };
+
   return (
     <>
       <div>
         <h1>Delete data from array</h1>
         <p>This is a delete component.</p>
+
+        <input type="text" placeholder="Add something for DELETE" value={addItem} onChange={(e)=>setAddItem(e.target.value)}/>
+        <button onClick={handleDeletion}>ADD</button>
 
         <div>
           {deleteItem.map((val, indx) => (
