@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Delete() {
-  const [deleteItem, setDeleteItem] = useState(["hello"]);
+  const [deleteItem, setDeleteItem] = useState(["hello","vikas"]);
   return (
     <>
       <div>
