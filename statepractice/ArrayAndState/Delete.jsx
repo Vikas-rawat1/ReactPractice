@@ -6,7 +6,7 @@ function Delete() {
   const [deleteItem, setDeleteItem] = useState([]);
 
   const handleDeletion = () => {
-    setAddItem({ ...addItem, addItem });
+    setAddItem({ ...addItem, deleteItem });
   };
 
   return (
@@ -15,7 +15,12 @@ function Delete() {
         <h1>Delete data from array</h1>
         <p>This is a delete component.</p>
 
-        <input type="text" placeholder="Add something for DELETE" value={addItem} onChange={(e)=>setAddItem(e.target.value)}/>
+        <input
+          type="text"
+          placeholder="Add something for DELETE"
+          value={addItem}
+          onChange={(e) => setAddItem(e.target.value)}
+        />
         <button onClick={handleDeletion}>ADD</button>
 
         <div>
