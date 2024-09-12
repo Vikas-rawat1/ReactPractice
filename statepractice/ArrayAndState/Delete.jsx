@@ -6,7 +6,13 @@ function Delete() {
   const [deleteItem, setDeleteItem] = useState([]);
 
   const handleDeletion = () => {
-    setAddItem({ ...addItem, deleteItem });
+    if (addItem.trim() === "") {
+      alert("Please enter a task name");
+      return;
+    }
+
+    setDeleteItem([...deleteItem, addItem]);
+    setAddItem("");
   };
 
   return (
@@ -26,7 +32,7 @@ function Delete() {
         <div>
           {deleteItem.map((val, indx) => (
             <div key={indx}>
-              <li>{val}</li>
+              <p>{val}</p>
               <button
                 onClick={() => {
                   return setDeleteItem(
