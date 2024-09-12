@@ -1,4 +1,5 @@
 import Array from "../ArrayAndState/Array";
+import Delete from "../ArrayAndState/Delete";
 import Todo from "../ArrayAndState/Todo";
 import Ludo from "../ObjectsAndState/Ludo";
 import Counter from "./components/Counter";
@@ -11,7 +12,8 @@ function App() {
       {/* <Like/> */}
       {/* <Ludo/> */}
       {/* <Array/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <Delete/>
     </>
   );
 }
