@@ -12,12 +12,15 @@ function Update() {
 
   let updateTaskUpper = () => {
     {
-      setTask(task.map((task) => task.toUpperCase()));
+      // we are using older values so we are using here callback 
+      setTask((prevTask) => {
+        return prevTask.map((task) => task.toUpperCase());
+      });
     }
   };
   let updateTaskLower = () => {
     {
-      setTask(task.map((task) => task.toUpperCase()));
+      setTask(task.map((task) => task.toLowerCase()));
     }
   };
 
@@ -49,8 +52,8 @@ function Update() {
         </div>
 
         {/* Update all todos  */}
-        <button onClick={updateTaskUpper}>Update Task</button>
-        <button onClick={updateTaskLower}>Update Task</button>
+        <button onClick={updateTaskUpper}>Update Task Upper</button>
+        <button onClick={updateTaskLower}>Update Task Lower</button>
       </div>
     </>
   );
