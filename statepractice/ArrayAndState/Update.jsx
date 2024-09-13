@@ -7,7 +7,7 @@ function Update() {
     <>
       {/* Update The array */}
       <div>
-        <input type="text" placeholder="Add a task" />
+        <input type="text" placeholder="Add a task" value={inputVal} onChange={(e)=>console.log(e.target.value)} />
         <button>ADD</button>
       </div>
     </>
