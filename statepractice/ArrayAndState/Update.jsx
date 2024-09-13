@@ -1,7 +1,7 @@
 import React from "react";
 
 function Update() {
-  return <>Update</div>;
+  return <>Update</>;
 }
 
 export default Update;
