@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Update() {
   const [inputVal, setInputVal] = useState("");
-  const [] = useState();
+  const [] = useState([]);
   // console.log(inputVal)
   return (
     <>
