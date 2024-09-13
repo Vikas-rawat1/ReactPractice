@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Update() {
-  const [inputVal, setInputVal] = useState("Add a task");
+  const [inputVal, setInputVal] = useState("");
   console.log(inputVal)
   return (
     <>
