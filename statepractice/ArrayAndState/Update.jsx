@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Update() {
-  const [inputVal,setInputVal] = useState();
+  const [inputVal, setInputVal] = useState();
   return (
     <>
       {/* Update The array */}
