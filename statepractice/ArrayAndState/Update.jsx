@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 function Update() {
-  const [inputVal, setInputVal] = useState("");
+  const [inputVal, setInputVal] = useState("dsf");
   const [task, setTask] = useState([]);
 
-let handleClick=()=>{
-  
-}
+  let handleClick = () => {
+    setTask([...task, inputVal]);
+  };
 
   // console.log(inputVal)
   return (
@@ -19,7 +19,12 @@ let handleClick=()=>{
           value={inputVal}
           onChange={(e) => setInputVal(e.target.value)}
         />
-        <button onClick={}>ADD</button>
+        <button onClick={handleClick}>ADD</button>
+        <div>
+          {task.map((val, inx) => (
+            <p>{val}</p>
+          ))}
+        </div>
       </div>
     </>
   );
