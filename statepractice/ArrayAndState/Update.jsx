@@ -1,11 +1,24 @@
+import { RiDeleteBinFill } from "@remixicon/react";
 import React, { useState } from "react";
 
 function Update() {
-  const [inputVal, setInputVal] = useState("dsf");
+  const [inputVal, setInputVal] = useState("");
   const [task, setTask] = useState([]);
 
-  let handleClick = () => {
-    setTask([...task, inputVal]);
+  let handleClick = (val) => {
+    setTask([...task, (val = inputVal)]);
+    setInputVal("");
+  };
+
+  let updateTaskUpper = () => {
+    {
+      setTask(task.map((task) => task.toUpperCase()));
+    }
+  };
+  let updateTaskLower = () => {
+    {
+      setTask(task.map((task) => task.toUpperCase()));
+    }
   };
 
   // console.log(inputVal)
@@ -22,9 +35,22 @@ function Update() {
         <button onClick={handleClick}>ADD</button>
         <div>
           {task.map((val, inx) => (
-            <p>{val}</p>
+            <div key={inx}>
+              {val}
+              <button
+                onClick={() => {
+                  return setTask(task.filter((val, index) => index !== inx));
+                }}
+              >
+                <RiDeleteBinFill />
+              </button>
+            </div>
           ))}
         </div>
+
+        {/* Update all todos  */}
+        <button onClick={updateTaskUpper}>Update Task</button>
+        <button onClick={updateTaskLower}>Update Task</button>
       </div>
     </>
   );
