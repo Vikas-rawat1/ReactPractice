@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Update() {
   const [inputVal, setInputVal] = useState("");
-  console.log(input)
+  console.log(inputVal)
   return (
     <>
       {/* Update The array */}
