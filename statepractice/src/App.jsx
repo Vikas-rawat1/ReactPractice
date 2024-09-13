@@ -13,7 +13,8 @@ function App() {
       {/* <Ludo/> */}
       {/* <Array/> */}
       {/* <Todo/> */}
-      <Delete/>
+      {/* <Delete/> */}
+      <
     </>
   );
 }
