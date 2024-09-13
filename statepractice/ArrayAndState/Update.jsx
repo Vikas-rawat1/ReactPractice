@@ -3,6 +3,11 @@ import React, { useState } from "react";
 function Update() {
   const [inputVal, setInputVal] = useState("");
   const [task, setTask] = useState([]);
+
+let handleClick=()=>{
+  
+}
+
   // console.log(inputVal)
   return (
     <>
@@ -14,7 +19,7 @@ function Update() {
           value={inputVal}
           onChange={(e) => setInputVal(e.target.value)}
         />
-        <button>ADD</button>
+        <button onClick={}>ADD</button>
       </div>
     </>
   );
