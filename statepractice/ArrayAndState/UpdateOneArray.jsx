@@ -10,6 +10,9 @@ function UpdateOneArray() {
     setInputVal("");
   };
 
+  let upperCaseOne = () => {
+    console.log("Upper case one");
+  };
   return (
     <>
       <div>
@@ -30,17 +33,7 @@ function UpdateOneArray() {
             >
               <RiDeleteBinFill />
             </button>
-            <button
-              onClick={() => {
-                return setTask(
-                  task.filter((task, index) =>
-                    index === inx ? inx.toUpperCase() : "soroy"
-                  )
-                );
-              }}
-            >
-              UpperCase
-            </button>
+            <button onClick={upperCaseOne}>UpperCase</button>
           </div>
         ))}
 
