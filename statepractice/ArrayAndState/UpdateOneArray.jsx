@@ -30,6 +30,13 @@ function UpdateOneArray() {
               >
                 <RiDeleteBinFill />
               </button>
+              <button
+                onClick={() => {
+                  return setTask(task.filter((val, index) => index !== inx));
+                }}
+              >
+              UpperCase
+              </button>
             </div>
           ))}
 
