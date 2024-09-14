@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 function UpdateOneArray() {
   const [inputVal, setInputVal] = useState("");
@@ -10,32 +10,34 @@ function UpdateOneArray() {
   };
 
   return (
-    <> <div>
-    <input
-      type="text"
-      placeholder="Add a task"
-      value={inputVal}
-      onChange={(e) => setInputVal(e.target.value)}
-    />
-    <button onClick={handleClick}>ADD</button>
-    <div>
-      {task.map((val, inx) => (
-        <div key={inx}>
-          {val}
-          <button
-            onClick={() => {
-              return setTask(task.filter((val, index) => index !== inx));
-            }}
-          >
-            <RiDeleteBinFill />
-          </button>
+    <>
+      <div>
+        <input
+          type="text"
+          placeholder="Add a task"
+          value={inputVal}
+          onChange={(e) => setInputVal(e.target.value)}
+        />
+        <button onClick={handleClick}>ADD</button>
+        <div>
+          {task.map((val, inx) => (
+            <div key={inx}>
+              {val}
+              <button
+                onClick={() => {
+                  return setTask(task.filter((val, index) => index !== inx));
+                }}
+              >
+                <RiDeleteBinFill />
+              </button>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
 
-    {/* Update one todos  */}
-  </div></>
-  )
+        {/* Update one todos  */}
+      </div>
+    </>
+  );
 }
 
-export default UpdateOneArray
+export default UpdateOneArray;
