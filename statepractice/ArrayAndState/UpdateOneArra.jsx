@@ -2,7 +2,7 @@ import React from 'react'
 
 function UpdateOneArra() {
   return (
-    <div></div>
+    <></>
   )
 }
 
