@@ -2,7 +2,7 @@ import Array from "../ArrayAndState/Array";
 import Delete from "../ArrayAndState/Delete";
 import Todo from "../ArrayAndState/Todo";
 import Update from "../ArrayAndState/Update";
-import UpdateOneArra from "../ArrayAndState/UpdateOneArra";
+import UpdateOneArra from "../ArrayAndState/UpdateOneArray";
 import Ludo from "../ObjectsAndState/Ludo";
 import Counter from "./components/Counter";
 import Like from "./components/Like";

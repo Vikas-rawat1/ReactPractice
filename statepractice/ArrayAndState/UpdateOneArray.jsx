@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function UpdateOneArra() {
+function UpdateOneArray() {
   const [inputVal, setInputVal] = useState("");
   const [task, setTask] = useState([]);
 
@@ -40,4 +40,4 @@ function UpdateOneArra() {
   )
 }
 
-export default UpdateOneArra
+export default UpdateOneArray
