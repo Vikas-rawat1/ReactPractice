@@ -20,7 +20,6 @@ function UpdateOneArray() {
           onChange={(e) => setInputVal(e.target.value)}
         />
         <button onClick={handleClick}>ADD</button>
-        <div>
           {task.map((val, inx) => (
             <div key={inx}>
               {val}
@@ -33,7 +32,6 @@ function UpdateOneArray() {
               </button>
             </div>
           ))}
-        </div>
 
         {/* Update one todos  */}
       </div>
