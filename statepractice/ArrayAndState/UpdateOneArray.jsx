@@ -33,9 +33,7 @@ function UpdateOneArray() {
       ))}
     </div>
 
-    {/* Update all todos  */}
-    <button onClick={updateTaskUpper}>Update Task Upper</button>
-    <button onClick={updateTaskLower}>Update Task Lower</button>
+    {/* Update one todos  */}
   </div></>
   )
 }
