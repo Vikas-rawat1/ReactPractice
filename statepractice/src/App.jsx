@@ -17,7 +17,7 @@ function App() {
       {/* <Todo/> */}
       {/* <Delete/> */}
       <Update />
-      <UpdateOneArra
+      <UpdateOneArray/
     </>
   );
 }
