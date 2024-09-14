@@ -19,26 +19,30 @@ function UpdateOneArray() {
           value={inputVal}
           onChange={(e) => setInputVal(e.target.value)}
         />
-        <button onClick={handleClick}>ADasD</button>
-          {task.map((val, inx) => (
-            <div key={inx}>
-              {val}
-              <button
-                onClick={() => {
-                  return setTask(task.filter((val, index) => index !== inx));
-                }}
-              >
-                <RiDeleteBinFill />
-              </button>
-              <button
-                onClick={() => {
-                  return setTask(task.filter((val, index) => index !== inx));
-                }}
-              >
+        <button onClick={handleClick}>ADD</button>
+        {task.map((val, inx) => (
+          <div key={inx}>
+            {val}
+            <button
+              onClick={() => {
+                return setTask(task.filter((val, index) => index !== inx));
+              }}
+            >
+              <RiDeleteBinFill />
+            </button>
+            <button
+              onClick={() => {
+                return setTask(
+                  task.filter((task, index) =>
+                    index === inx ? inx.toUpperCase() : "soroy"
+                  )
+                );
+              }}
+            >
               UpperCase
-              </button>
-            </div>
-          ))}
+            </button>
+          </div>
+        ))}
 
         {/* Update one todos  */}
       </div>
