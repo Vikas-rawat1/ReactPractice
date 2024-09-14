@@ -1,3 +1,4 @@
+import { RiDeleteBinFill } from "@remixicon/react";
 import React, { useState } from "react";
 
 function UpdateOneArray() {
