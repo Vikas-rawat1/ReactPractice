@@ -13,7 +13,7 @@ function UpdateOneArray() {
   let upperCaseOne = () => {
     console.log("Upper case one");
   };  
-  return  ( 
+  return  (
     <>   
       <div>
         <input
