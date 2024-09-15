@@ -14,7 +14,7 @@ function UpdateOneArray() {
     console.log("Upper case one");
   };
   return (
-    <>   
+    <>  
       <div>   
         <input
           type="text"
