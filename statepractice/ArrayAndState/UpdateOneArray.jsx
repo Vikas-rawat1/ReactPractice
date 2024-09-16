@@ -18,10 +18,13 @@ function UpdateOneArray() {
       });
     }
   };
-  let upperCaseOne = () => {
+  //SIngle upper case with index
+  let upperCaseOne = (index) => {
     // console.log("Upper case one");
     setTask((prevTask) => {
-      prevTask.map((task, inx) => (inx == index ? task.toUpperCase() : task));
+      return prevTask.map((task, inx) =>
+        inx === index ? task.toUpperCase() : task
+      );
     });
   };
   return (
