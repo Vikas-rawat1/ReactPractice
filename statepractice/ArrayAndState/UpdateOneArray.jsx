@@ -12,10 +12,11 @@ function UpdateOneArray() {
 
   let upperCaseOne = () => {
     console.log("Upper case one");
+    setTask(task.map((val, index) => index.toUpperCase()));
   };
   return (
     <>
-      <div> 
+      <div>
         <input
           type="text"
           placeholder="Add a task"
