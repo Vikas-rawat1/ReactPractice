@@ -15,7 +15,6 @@ function UpdateOneArray() {
   };
   return (
     <>
-      <div>
         <input
           type="text"
           placeholder="Add a task"
