@@ -10,6 +10,14 @@ function UpdateOneArray() {
     setInputVal("");
   };
 
+  let updateTaskUpper = () => {
+    {
+      // we are using older values so we are using here callback
+      setTask((prevTask) => {
+        return prevTask.map((task) => task.toUpperCase());
+      });
+    }
+  };
   let upperCaseOne = () => {
     // console.log("Upper case one");
     setTask(task.map((val, index) => index.toUpperCase()));
