@@ -17,7 +17,7 @@ function UpdateOneArray() {
     <> 
       <div>  
         <input
-          type="text" 
+          type="text"
           placeholder="Add a task"
           value={inputVal}
           onChange={(e) => setInputVal(e.target.value)}
