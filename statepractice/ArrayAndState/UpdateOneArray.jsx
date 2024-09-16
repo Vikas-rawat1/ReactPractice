@@ -20,7 +20,9 @@ function UpdateOneArray() {
   };
   let upperCaseOne = () => {
     // console.log("Upper case one");
-    setTask(task.map((val, index) => index.toUpperCase()));
+    setTask((prevTask) => {
+      prevTask.map((task, inx) => (inx == index ? task.toUpperCase() : task));
+    });
   };
   return (
     <>
@@ -42,7 +44,7 @@ function UpdateOneArray() {
             >
               <RiDeleteBinFill />
             </button>
-            <button onClick={upperCaseOne}>UpperCase</button>
+            <button onClick={() => upperCaseOne(inx)}>UpperCase</button>
           </div>
         ))}
 
