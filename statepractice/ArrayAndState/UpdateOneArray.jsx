@@ -25,7 +25,7 @@ function UpdateOneArray() {
       return prevTask.map((task, inx) =>
         inx === index ? task.toUpperCase() : task
       );
-    });
+    }); 
   }; 
   return (
     <>
