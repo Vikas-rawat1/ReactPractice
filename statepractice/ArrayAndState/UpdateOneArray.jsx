@@ -26,7 +26,7 @@ function UpdateOneArray() {
         inx === index ? task.toUpperCase() : task
       );
     });
-  }; 
+  };
   return (
     <>
       <div>
