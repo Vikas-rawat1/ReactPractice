@@ -11,7 +11,7 @@ function UpdateOneArray() {
   };
 
   let upperCaseOne = () => {
-    console.log("Upper case one");
+    // console.log("Upper case one");
     setTask(task.map((val, index) => index.toUpperCase()));
   };
   return (
