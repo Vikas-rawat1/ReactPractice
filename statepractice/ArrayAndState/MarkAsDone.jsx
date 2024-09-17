@@ -5,7 +5,7 @@ function MarkAsDone() {
   console.log(inputVal);
   return (
     <>
-      <input type="text" placeholder="Add task" value={inputVal} />
+      <input type="text" placeholder="Add task" value={inputVal} onChange={(e)=>console.log(e.target.value)}/>
     </>
   );
 }
