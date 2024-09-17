@@ -8,9 +8,9 @@ function MarkAsDone() {
   let handleAddClick = () => {
     setTask([...task, { val: inputVal, isDone: false }]);
     setInputVal("");
-    console.log(task)
+    // console.log(task)
   };
- 
+  
   let UpdateAllUpperCase = () => {
     setTask(task.map((task) => ({ ...task, val: task.val.toUpperCase() })));
   };
