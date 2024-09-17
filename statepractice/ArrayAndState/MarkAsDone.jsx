@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from "react";
 
 function MarkAsDone() {
+  const [inputVal, setInputVal] = useState("");
+  console.log(inputVal);
   return (
     <>
-      <input type="text" placeholder='Add task' />
+      <input type="text" placeholder="Add task" value={inputVal} />
     </>
-  )
+  );
 }
 
-export default MarkAsDone
+export default MarkAsDone;
