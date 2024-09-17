@@ -6,7 +6,7 @@ function HomeWork() {
   let genrateRandomNumber = () => {
     const randomTicket = Math.floor(100 + Math.random() * 900);
     setRandom(randomTicket.toString());
-    console.log(random);
+    // console.log(random);
 
     const sumOfDigit = randomTicket
       .toString()
