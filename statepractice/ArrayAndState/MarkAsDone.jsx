@@ -10,11 +10,11 @@ function MarkAsDone() {
     setInputVal("");
     // console.log(task)
   };
- 
+
   let UpdateAllUpperCase = () => {
     setTask(task.map((task) => ({ ...task, val: task.val.toUpperCase() })));
   };
- 
+
   let handleIndividualUpperCase = (index) => {
     setTask((prev) => {
       return prev.map((task, inx) =>
@@ -45,10 +45,10 @@ function MarkAsDone() {
         {task.map((task, index) => (
           <div key={index}>
             <span
-              style={{
-                textDecoration: task.isDone ? "line-through" : "none",
-                // color: task.isDone ? "white" : "white",
-              }}
+            // style={{
+            //     textDecoration: task.isDone ? "line-through" : "none",
+            //     // color: task.isDone ? "white" : "white",
+            //   }}
             >
               {task.val}
             </span>
@@ -56,7 +56,18 @@ function MarkAsDone() {
               UpperCase
             </button>
             <button onClick={() => handleMarkDone(index)}>
-              {task.isDone ? "Undo" : "Mark Done"}
+              {task.isDone ? (
+                <span
+                  style={{
+                    textDecoration: task.isDone ? "line-through" : "none",
+                    // color: task.isDone ? "white" : "white",
+                  }}
+                >
+                  Mark Done
+                </span>
+              ) : (
+                "Mark Done"
+              )}
             </button>
           </div>
         ))}
