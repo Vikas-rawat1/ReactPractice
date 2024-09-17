@@ -5,9 +5,14 @@ function MarkAsDone() {
   // console.log(inputVal);
   const [task, setTask] = useState([]);
 
+  let handleAddClick = () => {
+    setTask([...task, inputVal]);
+    setInputVal("");
+    // console.log(task)
+  };
 
-  let handleAddClick=()=>{
-    setTask()
+  let UpdateAllUpperCase=()=>{
+    setTask(task.map((task)=>task.toUpperCase()))
   }
 
   return (
@@ -18,7 +23,7 @@ function MarkAsDone() {
         value={inputVal}
         onChange={(e) => setInputVal(e.target.value)}
       />
-      <button onClick={}>Add</button>
+      <button onClick={handleAddClick}>Add</button>
 
       <div>
         {task.map((task, index) => (
