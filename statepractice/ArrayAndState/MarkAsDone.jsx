@@ -12,7 +12,7 @@ function MarkAsDone() {
   };
 
   let UpdateAllUpperCase = () => {
-    setTask(task.map((task) => task.toUpperCase()));
+    setTask(task.map((task) => task.val.toUpperCase()));
   };
 
   let handleIndividualUpperCase = (index) => {
