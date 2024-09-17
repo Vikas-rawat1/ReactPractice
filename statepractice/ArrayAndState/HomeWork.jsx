@@ -12,7 +12,7 @@ function HomeWork() {
       .toString()
       .split("")
       .reduce((sum, digit) => sum + parseInt(digit), 0);
-    // console.log(sumOfDigit);
+    console.log(sumOfDigit);
 
     if (sumOfDigit === 12) {
       setIsSum(true);
