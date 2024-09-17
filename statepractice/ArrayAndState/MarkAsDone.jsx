@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 function MarkAsDone() {
-  const [inputVal, setInputVal] = useState("");
+  const [inputVal, setInputVal] = useState([]);
   // console.log(inputVal);
   const [task, setTask] = useState([]);
 
   let handleAddClick = () => {
-    setTask([...task, inputVal]);
+    setTask([...task, { val: inputVal, isDone: false }]);
     setInputVal("");
     // console.log(task)
   };
@@ -18,7 +18,16 @@ function MarkAsDone() {
   let handleIndividualUpperCase = (index) => {
     setTask((prev) => {
       return prev.map((task, inx) =>
-        inx === index ? task.toUpperCase() : task
+        inx === index ? { ...task, val: task.val.toUpperCase() } : task
+      );
+    });
+  };
+
+  //Handle mark done
+  let handleMarkDone = (index) => {
+    setTask((prev) => {
+      return prev.map((task, inx) =>
+        inx === index ? { ...task, isDone: !task.isDone } : task
       );
     });
   };
@@ -35,12 +44,24 @@ function MarkAsDone() {
       <div>
         {task.map((task, index) => (
           <div key={index}>
-              {task}{" "}
-              <button onClick={()=>handleIndividualUpperCase(index)}>UpperCase</button>
+            <span
+              style={{
+                textDecoration: task.isDone ? "line-through" : "none",
+                // color: task.isDone ? "white" : "white",
+              }}
+            >
+              {task.val}
+            </span>
+            <button onClick={() => handleIndividualUpperCase(index)}>
+              UpperCase
+            </button>
+            <button onClick={() => handleMarkDone(index)}>
+              {task.isDone ? "Undo" : "Mark Done"}
+            </button>
           </div>
         ))}
       </div>
-      <button onClick={UpdateAllUpperCase}>UpperCase All</button>
+      {/* <button onClick={UpdateAllUpperCase}>UpperCase All</button> */}
     </>
   );
 }
