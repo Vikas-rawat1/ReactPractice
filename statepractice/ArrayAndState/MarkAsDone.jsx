@@ -15,6 +15,9 @@ function MarkAsDone() {
     setTask(task.map((task) => task.toUpperCase()));
   };
 
+  let handleIndividualUpperCase = () => {
+    setTask(task.map((task) => task));
+  };
   return (
     <>
       <input
@@ -27,10 +30,14 @@ function MarkAsDone() {
 
       <div>
         {task.map((task, index) => (
-          <p>{task}</p>
+          <>
+            <p>
+              {task} <button>UpperCase</button>
+            </p>
+          </>
         ))}
       </div>
-      <button onClick={UpdateAllUpperCase}>UpperCase</button>
+      <button onClick={UpdateAllUpperCase}>UpperCase All</button>
     </>
   );
 }
