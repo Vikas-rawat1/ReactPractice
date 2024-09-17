@@ -61,7 +61,7 @@ function MarkAsDone() {
           </div>
         ))}
       </div>
-      {/* <button onClick={UpdateAllUpperCase}>UpperCase All</button> */}
+      <button onClick={UpdateAllUpperCase}>UpperCase All</button>
     </>
   );
 }
