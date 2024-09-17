@@ -1,5 +1,6 @@
 import Array from "../ArrayAndState/Array";
 import Delete from "../ArrayAndState/Delete";
+import MarkAsDone from "../ArrayAndState/MarkAsDone";
 import Todo from "../ArrayAndState/Todo";
 import Update from "../ArrayAndState/Update";
 import UpdateOneArray from "../ArrayAndState/UpdateOneArray";
@@ -18,6 +19,7 @@ function App() {
       {/* <Delete/> */}
       {/* <Update /> */}
       <UpdateOneArray />
+      <MarkAsDone/>
     </>
   );
 }

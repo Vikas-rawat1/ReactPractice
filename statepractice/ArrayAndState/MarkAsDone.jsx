@@ -2,7 +2,9 @@ import React from 'react'
 
 function MarkAsDone() {
   return (
-    <div>MarkAsDone</div>
+    <>
+      <input type="text" placeholder='Add task' />
+    </>
   )
 }
 
