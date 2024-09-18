@@ -12,7 +12,7 @@ function HomeWork() {
       .toString()
       .split("")
       // .every((sum, digit) => sum + parseInt(digit), 0);
-    .reduce((sum, digit) => sum + parseInt(digit), 0);
+    .reduce((sum, digit) => sum + parseInt(digit),3, "0");
     // console.log(sumOfDigit);
 
     // if (sumOfDigit === ev[0]) {
