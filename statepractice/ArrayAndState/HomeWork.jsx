@@ -4,14 +4,15 @@ function HomeWork() {
   const [random, setRandom] = useState();
   const [isSum, setIsSum] = useState();
   let genrateRandomNumber = (ev) => {
-    const randomTicket = Math.floor( Math.random() * 100);
+    const randomTicket = Math.floor( Math.random() * 100)
+    .padStart(3,"0")
+
     setRandom(randomTicket.toString());
     // console.log(random);
 
     const sumOfDigit = randomTicket
       .toString()
       .split("")
-      .padStart(3,"0")
       // .every((sum, digit) => sum + parseInt(digit), 0);
     .reduce((sum, digit) => sum + parseInt(digit), 0);
     // console.log(sumOfDigit);
