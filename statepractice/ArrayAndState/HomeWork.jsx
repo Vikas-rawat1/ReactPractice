@@ -19,7 +19,7 @@ function HomeWork() {
     // console.log(sumOfDigit);
 
     // if (sumOfDigit === ev[0]) {
-    if (sumOfDigit[0] === randomTicket[0]) {
+    if (sumOfDigit[0] === 0) {
       setIsSum(true);
     } else {
       setIsSum(false);
