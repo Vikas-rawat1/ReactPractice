@@ -22,7 +22,7 @@ function HomeWork() {
       setIsSum(false);
     }
   };
-
+ 
   return (
     <div>
       <p>Lottery Game 🎟️</p>
