@@ -4,7 +4,7 @@ function HomeWork() {
   const [random, setRandom] = useState();
   const [isSum, setIsSum] = useState();
   let genrateRandomNumber = (ev) => {
-    const randomTicket = Math.floor(100+ Math.random() * 200);
+    const randomTicket = Math.floor(100 + Math.random() * 900);
     setRandom(randomTicket.toString());
     // console.log(random);
 
