@@ -1,5 +1,4 @@
 
-
 function HomeWork() {
   const [random, setRandom] = useState();
   const [isSum, setIsSum] = useState();  
