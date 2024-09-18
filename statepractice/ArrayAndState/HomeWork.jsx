@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function HomeWork() {
   const [random, setRandom] = useState();
-  const [isSum, setIsSum] = useState();
+  const [isSum, setIsSum] = useState(); 
   let genrateRandomNumber = () => {
     // const randomTicket = Math.floor(Math.random() * 100)
     const randomTicket = Math.floor(100 + Math.random() * 100)
