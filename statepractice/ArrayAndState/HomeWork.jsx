@@ -12,14 +12,14 @@ function HomeWork() {
     // console.log(random);
 
     const sumOfDigit = randomTicket
-      .toString()
-      .split("")
+      // .toString()
+      // .split("")
       // .every((sum, digit) => sum + parseInt(digit), 0);
-    .reduce((sum, digit) => sum + parseInt(digit), 0);
+    // .reduce((sum, digit) => sum + parseInt(digit), 0);
     // console.log(sumOfDigit);
 
     // if (sumOfDigit === ev[0]) {
-    if (sumOfDigit[0] === 0) {
+    if (randomTicket[0] === 0) {
       setIsSum(true);
     } else {
       setIsSum(false);
