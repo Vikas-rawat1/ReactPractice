@@ -5,6 +5,7 @@ function HomeWork() {
   const [isSum, setIsSum] = useState();
   let genrateRandomNumber = (ev) => {
     const randomTicket = Math.floor( Math.random() * 100)
+    .toString()
     .padStart(3,"0")
 
     setRandom(randomTicket.toString());
