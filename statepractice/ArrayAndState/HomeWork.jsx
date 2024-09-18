@@ -1,18 +1,17 @@
 function HomeWork() {
   const [random, setRandom] = useState();
-  const [isSum, setIsSum] = useState();  
+  const [isSum, setIsSum] = useState();
   let genrateRandomNumber = () => {
     // const randomTicket = Math.floor(Math.random() * 100)
-    const randomTicket = Math.floor(100 + Math.random() * 100)
-      .toString()
-      // .padStart(3, "0");
+    const randomTicket = Math.floor(100 + Math.random() * 100).toString();
+    // .padStart(3, "0");
     setRandom(randomTicket.toString());
     // console.log(random);
 
     const sumOfDigit = randomTicket
       .toString()
       .split("")
-      .reduce((sum, digit) => sum + parseInt(digit), 0);
+      .reduce((sum, digit) => sum + parseInt(digit), 0); //The reduce function starts by setting sum = 0 (because of the initial value).
     // console.log(sumOfDigit);
 
     // if (randomTicket[0] === "0") {
