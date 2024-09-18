@@ -3,23 +3,19 @@ import React, { useState } from "react";
 function HomeWork() {
   const [random, setRandom] = useState();
   const [isSum, setIsSum] = useState();
-  let genrateRandomNumber = (ev) => {
-    const randomTicket = Math.floor( Math.random() * 100)
-    .toString()
-    .padStart(3,"0")
-
+  let genrateRandomNumber = () => {
+    const randomTicket = Math.floor(100 + Math.random() * 900);
     setRandom(randomTicket.toString());
     // console.log(random);
 
     const sumOfDigit = randomTicket
-      // .toString()
-      // .split("")
-      // .every((sum, digit) => sum + parseInt(digit), 0);
-    // .reduce((sum, digit) => sum + parseInt(digit), 0);
+      .toString()
+      .split("")
+      .reduce((sum, digit) => sum + parseInt(digit), 0);
     // console.log(sumOfDigit);
 
-    // if (sumOfDigit === ev[0]) {
-    if (randomTicket[0] === 0) {
+    // if (sumOfDigit === sumOfDigit) {
+    if (sumOfDigit === 12) {
       setIsSum(true);
     } else {
       setIsSum(false);
