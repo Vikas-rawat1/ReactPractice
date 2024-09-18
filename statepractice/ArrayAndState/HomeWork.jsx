@@ -16,7 +16,7 @@ function HomeWork() {
 
     // if (randomTicket[0] === "0") {
     if (sumOfDigit === 12) {
-      if (sumOfDigit === 12) {
+      // if (sumOfDigit === 12) {
       setIsSum(true);
     } else {
       setIsSum(false);
