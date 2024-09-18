@@ -4,7 +4,10 @@ function HomeWork() {
   const [random, setRandom] = useState();
   const [isSum, setIsSum] = useState();
   let genrateRandomNumber = () => {
-    const randomTicket = Math.floor(100 + Math.random() * 900);
+    // const randomTicket = Math.floor(Math.random() * 100)
+    const randomTicket = Math.floor(100 + Math.random() * 100)
+      .toString()
+      // .padStart(3, "0");
     setRandom(randomTicket.toString());
     // console.log(random);
 
@@ -14,8 +17,9 @@ function HomeWork() {
       .reduce((sum, digit) => sum + parseInt(digit), 0);
     // console.log(sumOfDigit);
 
-    // if (sumOfDigit === sumOfDigit) {
+    // if (randomTicket[0] === "0") {
     if (sumOfDigit === 12) {
+      // if (sumOfDigit === 12) {
       setIsSum(true);
     } else {
       setIsSum(false);
