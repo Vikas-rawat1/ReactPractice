@@ -11,6 +11,7 @@ function HomeWork() {
     const sumOfDigit = randomTicket
       .toString()
       .split("")
+      .padStart(3,"0")
       // .every((sum, digit) => sum + parseInt(digit), 0);
     .reduce((sum, digit) => sum + parseInt(digit), 0);
     // console.log(sumOfDigit);
