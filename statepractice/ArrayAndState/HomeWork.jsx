@@ -3,18 +3,20 @@ import React, { useState } from "react";
 function HomeWork() {
   const [random, setRandom] = useState();
   const [isSum, setIsSum] = useState();
-  let genrateRandomNumber = () => {
-    const randomTicket = Math.floor(100 + Math.random() * 900);
+  let genrateRandomNumber = (ev) => {
+    const randomTicket = Math.floor(100+ Math.random() * 200);
     setRandom(randomTicket.toString());
     // console.log(random);
 
     const sumOfDigit = randomTicket
       .toString()
       .split("")
-      .reduce((sum, digit) => sum + parseInt(digit), 0);
+      // .every((sum, digit) => sum + parseInt(digit), 0);
+    .reduce((sum, digit) => sum + parseInt(digit), 0);
     // console.log(sumOfDigit);
 
-    if (sumOfDigit === 12) {
+    // if (sumOfDigit === ev[0]) {
+    if (sumOfDigit[0] === 0) {
       setIsSum(true);
     } else {
       setIsSum(false);
@@ -24,7 +26,7 @@ function HomeWork() {
   return (
     <div>
       <p>Lottery Game 🎟️</p>
-      <p>Lottery Ticket ={random !== null ? random : "No Ticket Found"} </p>
+      <p>Lottery Ticket = {random !== null ? random : "No Ticket Found"} </p>
       <button
         onClick={genrateRandomNumber}
         style={{
