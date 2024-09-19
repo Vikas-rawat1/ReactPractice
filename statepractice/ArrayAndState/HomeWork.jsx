@@ -7,7 +7,7 @@ function HomeWork() {
     // .padStart(3, "0");
     setRandom(randomTicket.toString());
     // console.log(random);
- 
+
     const sumOfDigit = randomTicket
       .toString()
       .split("")
