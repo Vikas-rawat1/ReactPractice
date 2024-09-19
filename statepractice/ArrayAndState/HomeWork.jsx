@@ -14,7 +14,7 @@ function HomeWork() {
       .reduce((sum, digit) => sum + parseInt(digit), 0); //The reduce function starts by setting sum = 0 (because of the initial value).
     console.log(sumOfDigit);
 
-    if (randomTicket[0] === "0") {
+    // if (randomTicket[0] === "0") {
     if (sumOfDigit === 12) {
       // if (sumOfDigit === 12) {
       setIsSum(true);
