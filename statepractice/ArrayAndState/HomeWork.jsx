@@ -4,9 +4,9 @@ function HomeWork() {
   let genrateRandomNumber = () => {
     // const randomTicket = Math.floor(Math.random() * 100)
     const randomTicket = Math.floor(100 + Math.random() * 100).toString();
-    // .padStart(3, "0");
+    .padStart(3, "0");
     setRandom(randomTicket.toString());
-    // console.log(random);
+    console.log(random);
 
     const sumOfDigit = randomTicket
       .toString()
