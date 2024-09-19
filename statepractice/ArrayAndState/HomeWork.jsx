@@ -18,7 +18,7 @@ function HomeWork() {
     if (sumOfDigit === 12) {
       // if (sumOfDigit === 12) {
       setIsSum(true);
-    } else {
+    // } else {
       setIsSum(false);
     }
   };
