@@ -6,7 +6,6 @@ function HomeWork() {
     const randomTicket = Math.floor(100 + Math.random() * 100).toString();
     // .padStart(3, "0");
     setRandom(randomTicket.toString());
-    // console.log(random);
 
     const sumOfDigit = randomTicket
       .toString()
