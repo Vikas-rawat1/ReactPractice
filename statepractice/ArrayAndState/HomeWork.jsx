@@ -11,7 +11,7 @@ function HomeWork() {
     const sumOfDigit = randomTicket
       .toString()
       .split("")
-      .re duce((sum, digit) => sum + parseInt(digit), 0); //The reduce function starts by setting sum = 0 (because of the initial value).
+      .reduce((sum, digit) => sum + parseInt(digit), 0); //The reduce function starts by setting sum = 0 (because of the initial value).
     // console.log(sumOfDigit);
 
     // if (randomTicket[0] === "0") {
