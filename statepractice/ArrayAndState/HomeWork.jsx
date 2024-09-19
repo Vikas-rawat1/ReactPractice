@@ -8,7 +8,7 @@ function HomeWork() {
     setRandom(randomTicket.toString());
     // console.log(random);
 
-    // const sumOfDigit = randomTicket
+    const sumOfDigit = randomTicket
       .toString()
       .split("")
       .reduce((sum, digit) => sum + parseInt(digit), 0); //The reduce function starts by setting sum = 0 (because of the initial value).
