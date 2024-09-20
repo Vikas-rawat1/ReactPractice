@@ -20,7 +20,7 @@ function HandlingMultipleInputs() {
 
     setFormData((currData) => {
       // 🌟🌟NORMAL WAY
-      
+
       // currData[fieldname] = newVal; //[] ka meaning hai ki COMPUTED PROPERY NAME  iska matlab hai aap ek propery ko access karne ki kosis karna chate hai but uska excate name apkko nahi pta hai, apke paas ek variable hai jisme us propery ka name hai
 
       // return { ...currData }; // yaha pe hamne pure obj ko return kar diya , currData ko change kar diya and fir usi currData ko hi return kar diya
@@ -29,17 +29,15 @@ function HandlingMultipleInputs() {
 
       // return { ...currData, [fieldname]: newVal };
 
-
       //MORE BETTER WAY     🌟🌟🌟
-  
-      return { ...currData, [e.target.name]: e.target.value };
 
+      return { ...currData, [e.target.name]: e.target.value };
     });
   };
 
   let handleSubmit = (event) => {
     event.preventDefault();
-    // console.log(formData) 
+    // console.log(formData)
     setFormData({
       fullName: "",
       userName: "",
