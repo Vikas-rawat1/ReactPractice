@@ -15,7 +15,7 @@ function HomeWork() {
     // console.log(sumOfDigit);
 
     // if (randomTicket[0] === "0") {
-    // if (sumOfDigit === 12) {
+    if (sumOfDigit === 12) {
       // if (sumOfDigit === 12) {
       setIsSum(true);
     } else {
