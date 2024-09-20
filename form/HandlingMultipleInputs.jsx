@@ -37,7 +37,7 @@ function HandlingMultipleInputs() {
 
   let handleSubmit = (event) => {
     event.preventDefault();
-    console.log(formData)
+    // console.log(formData)
     setFormData({
       fullName: "",
       userName: "",
