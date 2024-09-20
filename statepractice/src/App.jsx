@@ -1,3 +1,4 @@
+import Form from "../../form/Form";
 import Array from "../ArrayAndState/Array";
 import Delete from "../ArrayAndState/Delete";
 import HomeWork from "../ArrayAndState/HomeWork";
@@ -21,7 +22,8 @@ function App() {
       {/* <Update /> */}
       {/* <UpdateOneArray /> */}
       {/* <MarkAsDone/> */}
-      <HomeWork />
+      {/* <HomeWork /> */}
+      <Form />
     </>
   );
 }
