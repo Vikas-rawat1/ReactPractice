@@ -1,4 +1,5 @@
 import Form from "../../form/Form";
+import HandlingMultipleInputs from "../../form/HandlingMultipleInputs";
 import Array from "../ArrayAndState/Array";
 import Delete from "../ArrayAndState/Delete";
 import HomeWork from "../ArrayAndState/HomeWork";
@@ -23,7 +24,8 @@ function App() {
       {/* <UpdateOneArray /> */}
       {/* <MarkAsDone/> */}
       {/* <HomeWork /> */}
-      <Form />
+      {/* <Form /> */}
+      <HandlingMultipleInputs />
     </>
   );
 }
