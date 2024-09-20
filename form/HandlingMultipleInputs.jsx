@@ -13,8 +13,8 @@ function HandlingMultipleInputs() {
   // we'll create a common handler() for multiple input elements
 
   let handleInputChange = (e) => {
-    let fieldname = e.target.name; //name is attribute
-    let newVal = e.target.value; //vlass is attribute
+    // let fieldname = e.target.name; //name is attribute
+    // let newVal = e.target.value; //vlass is attribute
     // console.log(fieldname);//fullName,,, obj ke andar ke fieldname
     // console.log(newVal); //fullName
 
@@ -27,13 +27,19 @@ function HandlingMultipleInputs() {
 
       // BETTER WAY 🌟🌟
 
-      return { ...currData, [fieldname]: newVal };
+      // return { ...currData, [fieldname]: newVal };
+
+
+      //MORE BETTER WAY     🌟🌟🌟
+  
+      return { ...currData, [e.target.name]: e.target.value };
+
     });
   };
 
   let handleSubmit = (event) => {
     event.preventDefault();
-    // console.log(formData)
+    // console.log(formData) 
     setFormData({
       fullName: "",
       userName: "",
