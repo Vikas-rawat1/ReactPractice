@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Array() {
-  const [move, setMove] = useState({ blue: 0 });
+  // const [move, setMove] = useState({ blue: 0 });
   let [arr, setArr] = useState(["no moves"]); //passing / initializing with array
   let updateBlue = () => {
     // move.blue += 1;
