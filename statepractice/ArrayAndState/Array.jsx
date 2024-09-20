@@ -30,7 +30,7 @@ function Array() {
         <p>Moves= {move.blue}</p>
         <button onClick={updateBlue} style={{ backgroundColor: "blue" }}>
           Move
-        </button>
+        {/* </button> */}
       </div>
     </>
   );
