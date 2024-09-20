@@ -28,7 +28,7 @@ function Array() {
         <p>Array and State Practice</p>
         <p>{arr}</p>
         <p>Moves= {move.blue}</p>
-        <button onClick={updateBlue} style={{ backgroundColor: "blue" }}>
+        {/* <button onClick={updateBlue} style={{ backgroundColor: "blue" }}> */}
           Move
         </button>
       </div>
