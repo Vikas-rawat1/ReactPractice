@@ -5,7 +5,7 @@ function Array() {
   let [arr, setArr] = useState(["no moves"]); //passing / initializing with array
   let updateBlue = () => {
     // move.blue += 1;
-    setMove({ ...move, blue: (move.blue += 1) });
+    // setMove({ ...move, blue: (move.blue += 1) });
     console.log(move);
 
     //CALLBACK 🌟🌟
