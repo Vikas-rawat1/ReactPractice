@@ -32,7 +32,7 @@ function HandlingMultipleInputs() {
       //MORE BETTER WAY🌟🌟🌟
 
       return { ...currData, [e.target.name]: e.target.value };
-    });
+    }); 
   };
 
   let handleSubmit = (event) => {
