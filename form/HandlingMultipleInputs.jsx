@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function HandlingMultipleInputs() {
   const [formData, setFormData] = useState({
-    // initilize with the object
+    initilize with the object
     fullName: "",
     userName: "",
     email: "",
