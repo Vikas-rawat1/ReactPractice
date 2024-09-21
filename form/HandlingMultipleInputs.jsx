@@ -4,7 +4,7 @@ import { useState } from "react";
 function HandlingMultipleInputs() {
   const [formData, setFormData] = useState({
     // initilize with the object
-    // fullName: "",
+    fullName: "",
     // userName: "",
     // email: "",
     // password: "",
