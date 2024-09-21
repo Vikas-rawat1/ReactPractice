@@ -10,7 +10,7 @@ function HandlingMultipleInputs() {
     password: "",
     confirmPassword: "",
   });
-  // we'll create a common handler() for multiple input elements
+  we'll create a common handler() for multiple input elements
 
   let handleInputChange = (e) => {
     // let fieldname = e.target.name; //name is attribute
