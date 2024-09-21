@@ -28,7 +28,7 @@ function HandlingMultipleInputs() {
       // BETTER WAY 🌟🌟
 
       // return { ...currData, [fieldname]: newVal };
-
+// 
       //MORE BETTER WAY🌟🌟🌟
    
       return { ...currData, [e.target.name]: e.target.value };
