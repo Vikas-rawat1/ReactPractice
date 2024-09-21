@@ -7,7 +7,7 @@ function HandlingMultipleInputs() {
     fullName: "",
     userName: "",
     email: "",
-    password: "",
+    // password: "",
     // confirmPassword: "",
   });
   // we'll create a common handler() for multiple input elements
