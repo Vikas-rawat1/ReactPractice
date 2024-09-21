@@ -27,7 +27,7 @@ function HandlingMultipleInputs() {
 
       // BETTER WAY 🌟🌟
 
-      // return { ...currData, [fieldname]: newVal };
+      return { ...currData, [fieldname]: newVal };
 
       //MORE BETTER WAY🌟🌟🌟
 
