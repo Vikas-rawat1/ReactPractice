@@ -29,10 +29,10 @@ function HandlingMultipleInputs() {
 
       // return { ...currData, [fieldname]: newVal };
 
-      //MORE BETTER WAY🌟🌟🌟
+      MORE BETTER WAY🌟🌟🌟
 
       return { ...currData, [e.target.name]: e.target.value };
-    }); 
+    });
   };
 
   let handleSubmit = (event) => {
