@@ -33,7 +33,7 @@ function HandlingMultipleInputs() {
 
       return { ...currData, [e.target.name]: e.target.value };
     }); 
-  }; 
+  };
 
   let handleSubmit = (event) => {
     event.preventDefault();
