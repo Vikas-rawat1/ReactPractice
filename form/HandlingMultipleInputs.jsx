@@ -25,7 +25,7 @@ function HandlingMultipleInputs() {
 
       // return { ...currData }; // yaha pe hamne pure obj ko return kar diya , currData ko change kar diya and fir usi currData ko hi return kar diya
 
-      // BETTER WAY 🌟🌟
+      BETTER WAY 🌟🌟
 
       return { ...currData, [fieldname]: newVal };
 
