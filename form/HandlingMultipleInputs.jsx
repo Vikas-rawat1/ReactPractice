@@ -15,7 +15,7 @@ function HandlingMultipleInputs() {
   let handleInputChange = (e) => {
     let fieldname = e.target.name; //name is attribute
     let newVal = e.target.value; //vlass is attribute
-    console.log(fieldname);//fullName,,, obj ke andar ke fieldname
+    // console.log(fieldname);//fullName,,, obj ke andar ke fieldname
     // console.log(newVal); //fullName
 
     setFormData((currData) => {
