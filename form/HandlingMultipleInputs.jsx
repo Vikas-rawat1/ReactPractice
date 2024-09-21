@@ -13,7 +13,7 @@ function HandlingMultipleInputs() {
   // we'll create a common handler() for multiple input elements
 
   let handleInputChange = (e) => {
-    // let fieldname = e.target.name; //name is attribute
+    let fieldname = e.target.name; //name is attribute
     // let newVal = e.target.value; //vlass is attribute
     // console.log(fieldname);//fullName,,, obj ke andar ke fieldname
     // console.log(newVal); //fullName
