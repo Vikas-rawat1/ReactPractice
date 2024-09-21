@@ -31,7 +31,7 @@ function HandlingMultipleInputs() {
 
       //MORE BETTER WAY🌟🌟🌟
  
-      return { ...currData, [e.target.name]: e.target.value };
+      retur n { ...currData, [e.target.name]: e.target.value };
     });
   };
 
