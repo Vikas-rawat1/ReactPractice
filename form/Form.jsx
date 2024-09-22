@@ -16,7 +16,7 @@ function Form() {
     <>
       {/* 🌟🌟giving  LABEL in react for form 🌟🌟 htmlfor is used for giving a label*/}
 
-      <label htmlFor="fullName">Full Name</label>
+      {/* <label htmlFor="fullName">Full Name</label> */}
       <input
         // type="text"
         // placeholder="Enter text"
