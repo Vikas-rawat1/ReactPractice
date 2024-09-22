@@ -20,7 +20,7 @@ function Form() {
       <input
         type="text"
         placeholder="Enter text"
-        id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
+        // id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
         // value={fullName}
         onChange={handleFullName}
       />
