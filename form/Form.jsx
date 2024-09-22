@@ -3,7 +3,7 @@ import { useState } from "react";
 function Form() {
   const [fullName, setFullName] = useState("");
   🌟🌟 react ne  input value ko internally control kar liya isliye use hame  CONTROLL COMPONENTS khate hai, sab state variable ke reason se hi change huwa kuki react state ko janata hai  agar hame koi value janni ho to state ki value ko deko 🌟🌟
-  let handleFullName = (e) => {
+  let handleFullName = (e) => { 
     //  console.log((e.target))
     setFullName(e.target.value);
   };
