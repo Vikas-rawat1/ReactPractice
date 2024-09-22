@@ -16,7 +16,7 @@ function Ludo() {
 
     // 🌟🌟 Using Callbacks
     setMoves((prevMoves) => {
-      // return { ...prevMoves, yellow: prevMoves.yellow + 1 };
+      return { ...prevMoves, yellow: prevMoves.yellow + 1 };
     });
   };
   let updateGreen = () => {
