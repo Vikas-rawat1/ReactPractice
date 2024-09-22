@@ -17,7 +17,7 @@ function Form() {
       {/* 🌟🌟giving  LABEL in react for form 🌟🌟 htmlfor is used for giving a label*/}
 
       {/* <label htmlFor="fullName">Full Name</label> */}
-      {/* <input */}
+      <input
         // type="text"
         // placeholder="Enter text"
         // id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
