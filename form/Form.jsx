@@ -19,7 +19,7 @@ function Form() {
       <label htmlFor="fullName">Full Name</label>
       <input
         type="text"
-        // placeholder="Enter text"
+        placeholder="Enter text"
         // id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
         // value={fullName}
         onChange={handleFullName}
