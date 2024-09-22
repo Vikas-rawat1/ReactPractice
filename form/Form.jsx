@@ -24,7 +24,7 @@ function Form() {
         // value={fullName}
         onChange={handleFullName}
       />
-      <button>Submit</button>
+      {/* <button>Submit</button> */}
     </>
   );
 }
