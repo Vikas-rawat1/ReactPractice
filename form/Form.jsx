@@ -10,7 +10,7 @@ function Form() {
 
   //🌟🌟🌟🌟🌟🌟 MOST IMPORTANT🌟🌟🌟🌟🌟🌟🌟🌟
 
-  ✋✋✋✋✋jsx ka syntax hamesa files tak hai raheta hai aur jaise hi wo server per run hota hai to wo normal HTML run hoti hai , and internally hi jsx alag ho jata hai
+  // ✋✋✋✋✋jsx ka syntax hamesa files tak hai raheta hai aur jaise hi wo server per run hota hai to wo normal HTML run hoti hai , and internally hi jsx alag ho jata hai
 
   return (
     <>
