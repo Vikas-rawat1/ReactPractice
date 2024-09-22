@@ -14,7 +14,7 @@ function Form() {
 
   return (
     <>
-      🌟🌟giving  LABEL in react for form 🌟🌟 htmlfor is used for giving a label
+      {/* 🌟🌟giving  LABEL in react for form 🌟🌟 htmlfor is used for giving a label*/}
 
       <label htmlFor="fullName">Full Name</label>
       <input
