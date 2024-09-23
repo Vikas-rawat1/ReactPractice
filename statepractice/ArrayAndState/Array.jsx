@@ -25,7 +25,7 @@ function Array() {
   return (
     <>
       <div>
-        <p>Array and State Practice</p>
+        {/* <p>Array and State Practice</p> */}
         <p>{arr}</p>
         <p>Moves= {move.blue}</p>
         <button onClick={updateBlue} style={{ backgroundColor: "blue" }}>
