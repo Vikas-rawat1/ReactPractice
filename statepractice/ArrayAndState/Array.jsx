@@ -6,7 +6,7 @@ function Array() {
   let updateBlue = () => {
     // move.blue += 1;
     // setMove({ ...move, blue: (move.blue += 1) });
-    console.log(move);
+    // console.log(move);
 
     //CALLBACK 🌟🌟
     setMove((prev) => ({ ...prev, blue: (move.blue += 1) }));
