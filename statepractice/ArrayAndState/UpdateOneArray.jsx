@@ -1,5 +1,5 @@
 import { RiDeleteBinFill } from "@remixicon/react";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 function UpdateOneArray() {
   const [inputVal, setInputVal] = useState("");
