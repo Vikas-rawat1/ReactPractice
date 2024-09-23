@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 function UpdateOneArray() {
   const [inputVal, setInputVal] = useState("");
-  // const [task, setTask] = useState([]);
+  const [task, setTask] = useState([]);
 
   let handleClick = (val) => {
     setTask([...task, (val = inputVal)]);
