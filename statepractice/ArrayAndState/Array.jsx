@@ -18,7 +18,7 @@ function Array() {
     // setArr([...arr,"blue moves"]);
     setArr((prevArr) => {
       return [...prevArr, "blue moves"];
-    // });
+    });
   };
 
   // setArr()
