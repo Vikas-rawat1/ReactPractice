@@ -14,7 +14,7 @@ function UpdateOneArray() {
     {
       // we are using older values so we are using here callback
       setTask((prevTask) => {
-        // return prevTask.map((task) => task.toUpperCase());
+        return prevTask.map((task) => task.toUpperCase());
       });
     }
   };
