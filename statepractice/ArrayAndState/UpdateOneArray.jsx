@@ -22,7 +22,7 @@ function UpdateOneArray() {
   let upperCaseOne = (index) => {
     // console.log("Upper case one"); 
     setTask((prevTask) => {
-      return prevTask.map((task, inx) =>
+      // return prevTask.map((task, inx) =>
         inx === index ? task.toUpperCase() : task
       );
     });
