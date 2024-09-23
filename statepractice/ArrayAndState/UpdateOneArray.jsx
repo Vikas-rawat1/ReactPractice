@@ -12,7 +12,7 @@ function UpdateOneArray() {
 
   let updateTaskUpper = () => {
     {
-      we are using older values so we are using here callback
+      // we are using older values so we are using here callback
       setTask((prevTask) => {
         return prevTask.map((task) => task.toUpperCase());
       });
