@@ -20,7 +20,7 @@ function UpdateOneArray() {
   };
   //SIngle upper case with index
   let upperCaseOne = (index) => {
-    // console.log("Upper case one"); 
+    // console.log("Upper case one");
     setTask((prevTask) => {
       return prevTask.map((task, inx) =>
         inx === index ? task.toUpperCase() : task
