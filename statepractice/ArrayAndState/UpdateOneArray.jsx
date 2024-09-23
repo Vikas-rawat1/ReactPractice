@@ -16,7 +16,7 @@ function UpdateOneArray() {
       setTask((prevTask) => {
         return prevTask.map((task) => task.toUpperCase());
       });
-    // }
+    }
   };
   //SIngle upper case with index
   let upperCaseOne = (index) => {
