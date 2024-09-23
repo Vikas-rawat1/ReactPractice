@@ -10,7 +10,7 @@ function UpdateOneArray() {
     setInputVal("");
   };
 
-  let updateTaskUpper = () => {
+  // let updateTaskUpper = () => {
     {
       // we are using older values so we are using here callback
       setTask((prevTask) => {
