@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 
 function Array() {
   // const [move, setMove] = useState({ blue: 0 });
