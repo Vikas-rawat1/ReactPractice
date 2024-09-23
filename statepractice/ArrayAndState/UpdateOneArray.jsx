@@ -51,7 +51,7 @@ function UpdateOneArray() {
           </div>
         ))}
 
-        {/* Update one todos  */}
+        Update one todos 
       </div>
     </>
   );
