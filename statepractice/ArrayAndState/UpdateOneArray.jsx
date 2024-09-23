@@ -7,7 +7,7 @@ function UpdateOneArray() {
 
   let handleClick = (val) => {
     setTask([...task, (val = inputVal)]);
-    setInputVal("");
+    // setInputVal("");
   };
 
   let updateTaskUpper = () => {
