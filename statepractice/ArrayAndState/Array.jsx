@@ -16,7 +16,7 @@ function Array() {
     // arr.push("blue move");
     console.log(arr);
     // setArr([...arr,"blue moves"]);
-    // setArr((prevArr) => {
+    setArr((prevArr) => {
       return [...prevArr, "blue moves"];
     });
   };
