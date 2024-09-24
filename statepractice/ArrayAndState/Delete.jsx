@@ -32,7 +32,7 @@
         {/* <div> */}
           {/* {deleteItem.map((val, indx) => ( */}
             {/* <div key={indx}> */}
-              {/* <p>{val}</p> */}
+              <p>{val}</p>
               <button
                 onClick={() => {
                   return setDeleteItem(
