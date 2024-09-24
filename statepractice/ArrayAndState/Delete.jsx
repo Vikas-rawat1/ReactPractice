@@ -27,7 +27,7 @@
           {/* value={addItem} */}
           {/* onChange={(e) => setAddItem(e.target.value)} */}
         {/* /> */}
-        {/* <button onClick={handleDeletion}>ADD</button> */}
+        <button onClick={handleDeletion}>ADD</button>
 
         <div>
           {deleteItem.map((val, indx) => (
