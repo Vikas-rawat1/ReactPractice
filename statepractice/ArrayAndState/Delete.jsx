@@ -15,7 +15,7 @@
     // setAddItem("");
   // };
 
-  return (
+  // return (commit
     <>
       <div>
         <h1>Delete data from array</h1>
