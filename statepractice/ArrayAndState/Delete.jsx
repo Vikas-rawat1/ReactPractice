@@ -1,14 +1,14 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 
 // function Delete() {
   // const [deleteItem, setDeleteItem] = useState(["hello", "vikas"]);
   // const [addItem, setAddItem] = useState("");
   // const [deleteItem, setDeleteItem] = useState([]);
 
-  // const handleDeletion = () => {
-    // if (addItem.trim() === "") {
-      // alert("Please enter a task name");
-      // return;
+  const handleDeletion = () => {
+    if (addItem.trim() === "") {
+      alert("Please enter a task name");
+      return;
     }
 
     setDeleteItem([...deleteItem, addItem]);
