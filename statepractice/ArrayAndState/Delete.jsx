@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Delete() {
+// function Delete() {
   // const [deleteItem, setDeleteItem] = useState(["hello", "vikas"]);
   // const [addItem, setAddItem] = useState("");
   // const [deleteItem, setDeleteItem] = useState([]);
