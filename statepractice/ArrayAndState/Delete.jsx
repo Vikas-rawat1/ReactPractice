@@ -29,7 +29,7 @@
         {/* /> */}
         {/* <button onClick={handleDeletion}>ADD</button> */}
 
-        <div>
+        {/* <div> */}
           {deleteItem.map((val, indx) => (
             <div key={indx}>
               <p>{val}</p>
