@@ -17,7 +17,7 @@
 
   // return (commit
     <>
-      <div>
+      {/* <div> */}
         <h1>Delete data from array</h1>
         <p>This is a delete component.</p>
 
