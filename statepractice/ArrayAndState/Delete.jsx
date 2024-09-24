@@ -5,7 +5,7 @@
   // const [addItem, setAddItem] = useState("");
   // const [deleteItem, setDeleteItem] = useState([]);
 
-  const handleDeletion = () => {
+  // const handleDeletion = () => {
     if (addItem.trim() === "") {
       alert("Please enter a task name");
       return;
