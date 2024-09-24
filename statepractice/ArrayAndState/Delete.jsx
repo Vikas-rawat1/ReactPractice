@@ -6,7 +6,7 @@ function Delete() {
   const [deleteItem, setDeleteItem] = useState([]);
 
   const handleDeletion = () => {
-    if (addItem.trim() === "") {
+    // if (addItem.trim() === "") {
       alert("Please enter a task name");
       return;
     }
