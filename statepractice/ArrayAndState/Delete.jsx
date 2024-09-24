@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Delete() {
   // const [deleteItem, setDeleteItem] = useState(["hello", "vikas"]);
-  // const [addItem, setAddItem] = useState("");
+  const [addItem, setAddItem] = useState("");
   // const [deleteItem, setDeleteItem] = useState([]);
 
   const handleDeletion = () => {
