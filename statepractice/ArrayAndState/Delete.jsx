@@ -33,7 +33,7 @@
           {/* {deleteItem.map((val, indx) => ( */}
             {/* <div key={indx}> */}
               {/* <p>{val}</p> */}
-              {/* <button */}
+              <button
                 onClick={() => {
                   return setDeleteItem(
                     deleteItem.filter((val, index) => index !== indx)
