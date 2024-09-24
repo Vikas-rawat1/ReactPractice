@@ -9,7 +9,7 @@
     // if (addItem.trim() === "") {
       // alert("Please enter a task name");
       // return;
-    // }
+    }
 
     setDeleteItem([...deleteItem, addItem]);
     setAddItem("");
