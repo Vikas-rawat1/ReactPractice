@@ -26,7 +26,7 @@
           {/* placeholder="Add something for DELETE" */}
           {/* value={addItem} */}
           {/* onChange={(e) => setAddItem(e.target.value)} */}
-        {/* /> */}
+        />
         <button onClick={handleDeletion}>ADD</button>
 
         <div>
