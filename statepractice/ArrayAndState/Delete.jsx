@@ -12,7 +12,7 @@
     // }
 
     setDeleteItem([...deleteItem, addItem]);
-    // setAddItem("");
+    setAddItem("");
   };
 
   return (
