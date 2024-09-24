@@ -22,7 +22,7 @@
         {/* <p>This is a delete component.</p> */}
 
         {/* <input */}
-          {/* type="text" */}
+          type="text"
           placeholder="Add something for DELETE"
           value={addItem}
           onChange={(e) => setAddItem(e.target.value)}
