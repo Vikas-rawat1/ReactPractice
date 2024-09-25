@@ -70,7 +70,7 @@ function Todo() {
                     >
                       {/* <RiDeleteBin2Fill /> */}
                     </button>
-                  {/* </div> */}
+                  </div>
                 </div>
               );
             })}
