@@ -68,11 +68,11 @@ function Todo() {
                       }}
                       style={{ backgroundColor: "transparent" }}
                     >
-                      {/* <RiDeleteBin2Fill /> */}
+                      <RiDeleteBin2Fill />
                     </button>
                   </div>
                 </div>
-              );
+              {/* ); */}
             })}
           </ul>
         </div>
