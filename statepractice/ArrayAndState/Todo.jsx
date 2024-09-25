@@ -6,7 +6,7 @@ function Todo() {
   let [todo, setTodo] = useState([]);
 
   console.log(inputVal);
-  setInputVal(inputVal);
+  // setInputVal(inputVal);
 
   let addNewTask = () => {
     // console.log("New task added");
