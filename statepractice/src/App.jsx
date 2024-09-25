@@ -26,7 +26,7 @@ function App() {
       {/* <HomeWork /> */}
       {/* <Form /> */}
       {/* <HandlingMultipleInputs /> */}
-      <Comment
+      <Comments />
     </>
   );
 }
