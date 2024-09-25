@@ -34,7 +34,7 @@ function Todo() {
             setInputVal(e.target.value);
           }}
         />
-        {/* <button */}
+        <button
           onClick={addNewTask}
           style={{
             backgroundColor: "blue",
@@ -47,7 +47,7 @@ function Todo() {
         <div>
           <ul>
             {todo.map((val, inx) => {
-              return (
+              {/* return ( */}
                 <div key={inx}>
                   <div
                     style={{
