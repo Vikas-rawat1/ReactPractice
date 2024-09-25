@@ -59,7 +59,7 @@ function Todo() {
                     }}
                   >
                     <li style={{ listStyle: "none" }}>{val}</li>
-                    <button
+                    {/* <button */}
                       // todo.splice(index, 1) // this will also remove the item from the array but not from the UI
                       // instead of this, we use filter method which returns a new array without the item at the specified index
                       // and does not mutate the original array.
