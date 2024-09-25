@@ -5,10 +5,12 @@ function Comments() {
     <div>
       <h1>Give a Comment</h1>
       <form action="">
-        <input type="text" placeholder="username"/>
-        <button>Add</button>
-        <input type="number" placeholder="number"/>
-        <button>Add</button>
+        <div>
+          <input type="text" placeholder="username" />
+          <textarea>Remarks</textarea>
+        </div>
+        <input type="number" placeholder="number" />
+        <button>Submit</button>
       </form>
     </div>
   );
