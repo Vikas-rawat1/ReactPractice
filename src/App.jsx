@@ -4,6 +4,7 @@ import HelloColors from "./components/props/Activity/HelloColors";
 import Cart from "./components/amazonCart/Cart";
 import Button from "./components/ClickEvents/Buttons";
 import Form from "./components/ClickEvents/Form";
+import Comments from "../form/Comments";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       {/* <Cart /> */}
       {/* <Button/> */}
       <Form/>
-      <Comment
+      <Comments
     </>
   );
 }
