@@ -47,7 +47,7 @@ function Todo() {
         <div>
           <ul>
             {todo.map((val, inx) => {
-              {/* return ( */}
+              return (
                 <div key={inx}>
                   <div
                     style={{
