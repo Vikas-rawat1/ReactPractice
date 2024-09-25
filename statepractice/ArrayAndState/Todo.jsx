@@ -34,7 +34,7 @@ function Todo() {
             setInputVal(e.target.value);
           }}
         />
-        <button
+        {/* <button */}
           onClick={addNewTask}
           style={{
             backgroundColor: "blue",
