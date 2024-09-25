@@ -11,7 +11,7 @@ function Todo() {
   let addNewTask = () => {
     // console.log("New task added");
     if (inputVal.trim() === "") {
-      // alert("Please enter a task name");
+      alert("Please enter a task name");
       return;
     }
 
