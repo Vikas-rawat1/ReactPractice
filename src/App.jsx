@@ -16,7 +16,7 @@ function App() {
       {/* <Cart /> */}
       {/* <Button/> */}
       <Form/>
-      <Comments
+      <Comments/>
     </>
   );
 }
