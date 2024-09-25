@@ -5,7 +5,7 @@ function Comments() {
     <div>
       <h1>Give a Comment</h1>
       <form action="">
-        
+        <input type="text" />
       </form>
     </div>
   );
