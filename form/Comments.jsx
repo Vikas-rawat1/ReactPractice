@@ -6,7 +6,9 @@ function Comments() {
       <h1>Give a Comment</h1>
       <form action="">
         <input type="text" placeholder="username"/>
-        <input type="number" placeholder=""/>
+        <button>Add</button>
+        <input type="number" placeholder="number"/>
+        <button>Add</button>
       </form>
     </div>
   );
