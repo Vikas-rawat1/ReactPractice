@@ -71,8 +71,8 @@ function Todo() {
                       <RiDeleteBin2Fill />
                     </button>
                   </div>
-                {/* </div> */}
-              {/* ); */}
+                </div>
+              );
             })}
           </ul>
         </div>
