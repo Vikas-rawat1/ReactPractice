@@ -23,7 +23,7 @@ function Todo() {
     <>
       <div>
         <input
-          // style={{
+          style={{
             outline: "none",
             height: "3vw",
           }}
