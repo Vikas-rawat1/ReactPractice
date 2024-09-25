@@ -4,6 +4,9 @@ function Comments() {
   return (
     <div>
       <h1>Give a Comment</h1>
+      <form action="">
+        
+      </form>
     </div>
   );
 }
