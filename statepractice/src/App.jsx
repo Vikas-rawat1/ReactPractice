@@ -25,7 +25,8 @@ function App() {
       {/* <MarkAsDone/> */}
       {/* <HomeWork /> */}
       {/* <Form /> */}
-      <HandlingMultipleInputs />
+      {/* <HandlingMultipleInputs /> */}
+      <Comment
     </>
   );
 }
