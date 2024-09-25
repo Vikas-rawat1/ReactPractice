@@ -12,7 +12,7 @@ function Todo() {
     // console.log("New task added");
     if (inputVal.trim() === "") {
       alert("Please enter a task name");
-      // return;
+      return;
     }
 
     setTodo([...todo, inputVal]);
