@@ -9,7 +9,7 @@
         {/* <input type="text" placeholder="username" /> */}
         {/* <br /> */}
         // <br />
-        // <textarea>Remarks</textarea>
+        <textarea>Remarks</textarea>
         <br />
         <br />
         <br />
