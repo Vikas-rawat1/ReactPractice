@@ -12,7 +12,7 @@
         // <textarea>Remarks</textarea>
         // <br />
         {/* <br /> */}
-        <br />
+        // <br />
         <input type="number" placeholder="number" />
         <br />
         <br />
