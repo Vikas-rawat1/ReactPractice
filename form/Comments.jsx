@@ -22,4 +22,4 @@
   );
 }
 
-export default Comments;
+// export default Comments;
