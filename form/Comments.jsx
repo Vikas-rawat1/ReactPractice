@@ -13,7 +13,6 @@ function Comments() {
     setFormData((currData) => {
       return { ...currData, [e.target.name]: [e.target.value] };
     });
-
   };
 
   let handleSubmit = (e) => {
