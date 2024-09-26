@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Comments() {
+  let [formData,setFormData]=useState({
+    username:'',
+    remarks:'',
+    rating:''
+  })
   return (
     <div>
       {/* Not focusing on styles here only focusing on logic */}
