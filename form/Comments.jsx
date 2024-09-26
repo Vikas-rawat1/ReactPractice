@@ -1,7 +1,7 @@
 import React from "react";
 
 function Comments() {
-  // return (
+  return (
     <div>
       Not focusing on styles here only focusing on logic
       {/* <h1>Give a Comment</h1> */}
