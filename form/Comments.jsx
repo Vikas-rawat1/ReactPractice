@@ -1,6 +1,6 @@
 import React from "react";
 
-// function Comments() {
+function Comments() {
   // return (
     <div>
       Not focusing on styles here only focusing on logic
