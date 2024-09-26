@@ -22,7 +22,7 @@ function Comments() {
   };
   return (
     <div>
-      {/* Not focusing on styles here only focusing on logic */}
+      Not focusing on styles here only focusing on logic
       <h1>Give a Comment</h1>
       <form action="" onSubmit={handleSubmit}>
         <label htmlFor="username">Username</label>
