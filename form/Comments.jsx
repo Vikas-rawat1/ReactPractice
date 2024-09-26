@@ -7,7 +7,7 @@
       {/* <h1>Give a Comment</h1> */}
       {/* <form action=""> */}
         {/* <input type="text" placeholder="username" /> */}
-        {/* <br /> */}
+        <br />
         <br />
         <textarea>Remarks</textarea>
         <br />
