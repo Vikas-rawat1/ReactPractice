@@ -5,7 +5,7 @@ function Comments() {
     <div>
       Not focusing on styles here only focusing on logic
       {/* <h1>Give a Comment</h1> */}
-      <form action="">
+      {/* <form action=""> */}
         <input type="text" placeholder="username" />
         <br />
         <br />
