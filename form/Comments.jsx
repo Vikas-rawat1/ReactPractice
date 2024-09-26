@@ -18,6 +18,7 @@ function Comments() {
   let handleSubmit = (e) => {
     console.log(formData);
     e.preventDefault();
+    setFormData({ username: "", remarks: "", rating: "" });
   };
   return (
     <div>
