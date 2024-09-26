@@ -13,7 +13,7 @@ function Comments() {
         <br />
         <br />
         <br />
-        <input type="number" placeholder="number" />
+        <input type="number" placeholder="Rating" style={{width:"10vw"}} min={1} max={5}/>
         <br />
         <br />
         <button>Add Commet</button>
