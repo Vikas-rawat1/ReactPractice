@@ -16,7 +16,7 @@
         // <input type="number" placeholder="number" />
         {/* <br /> */}
         // <br />
-        // <button>Add Commet</button>
+        <button>Add Commet</button>
       </form>
     </div>
   );
