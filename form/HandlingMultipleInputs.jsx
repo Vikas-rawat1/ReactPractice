@@ -5,7 +5,7 @@
   // const [formData, setFormData] = useState({
     // initilize with the object
     // fullName: "",
-    // userName: "",
+    userName: "",
     // email: "",
     password: "",
     confirmPassword: "",
