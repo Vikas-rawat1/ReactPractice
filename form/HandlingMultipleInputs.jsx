@@ -9,7 +9,7 @@
     // email: "",
     // password: "",
     // confirmPassword: "",
-  });
+  // });
   // we'll create a common handler() for multiple input elements
 
   let handleInputChange = (e) => {
