@@ -6,7 +6,7 @@
     // initilize with the object
     // fullName: "",
     userName: "",
-    email: "",
+    // email: "",
     password: "",
     confirmPassword: "",
   });
