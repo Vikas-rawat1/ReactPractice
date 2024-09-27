@@ -45,7 +45,7 @@
       // password: "",
       // confirmPassword: "",
     }); // use for blank the input fields
-  // };
+  };
   return (
     <form onSubmit={handleSubmit}>
       <div>
