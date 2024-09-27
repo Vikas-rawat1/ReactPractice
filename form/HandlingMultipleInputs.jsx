@@ -47,7 +47,7 @@
     // }); // use for blank the input fields
   // };
   // return (
-    <form onSubmit={handleSubmit}>
+    // <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="fullName">Full Name</label>
         <input
