@@ -18,7 +18,7 @@
     // console.log(fieldname);//fullName,,, obj ke andar ke fieldname
     // console.log(newVal); //fullName
 
-    setFormData((currData) => {
+    // setFormData((currData) => {
       // 🌟🌟NORMAL WAY
 
       // currData[fieldname] = newVal; //[] ka meaning hai ki COMPUTED PROPERY NAME  iska matlab hai aap ek propery ko access karne ki kosis karna chate hai but uska excate name apkko nahi pta hai, apke paas ek variable hai jisme us propery ka name hai
