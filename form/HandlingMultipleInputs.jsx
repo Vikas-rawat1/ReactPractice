@@ -46,7 +46,7 @@
       // confirmPassword: "",
     // }); // use for blank the input fields
   // };
-  // return (
+  return (
     <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="fullName">Full Name</label>
