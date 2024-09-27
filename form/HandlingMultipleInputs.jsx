@@ -42,7 +42,7 @@
       // fullName: "",
       // userName: "",
       // email: "",
-      password: "",
+      // password: "",
       confirmPassword: "",
     }); // use for blank the input fields
   };
