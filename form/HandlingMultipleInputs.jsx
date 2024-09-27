@@ -41,7 +41,7 @@
     // setFormData({
       // fullName: "",
       // userName: "",
-      // email: "",
+      email: "",
       password: "",
       confirmPassword: "",
     }); // use for blank the input fields
