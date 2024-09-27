@@ -39,7 +39,7 @@
     // event.preventDefault();
     // console.log(formData)
     // setFormData({
-      // fullName: "",
+      fullName: "",
       userName: "",
       email: "",
       password: "",
