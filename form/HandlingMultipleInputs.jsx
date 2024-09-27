@@ -36,7 +36,7 @@
   // };
 
   // let handleSubmit = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     // console.log(formData)
     setFormData({
       fullName: "",
