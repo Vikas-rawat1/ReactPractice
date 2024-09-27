@@ -40,7 +40,7 @@
     // console.log(formData)
     // setFormData({
       // fullName: "",
-      // userName: "",
+      userName: "",
       email: "",
       password: "",
       confirmPassword: "",
