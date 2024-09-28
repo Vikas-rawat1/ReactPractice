@@ -20,7 +20,6 @@ function UseEffect() {
       <button onClick={handleClick}>Count</button>
       <h1>countY={countY}</h1>
       <button onClick={handleClick}>Count</button>
-      
     </>
   );
 }
