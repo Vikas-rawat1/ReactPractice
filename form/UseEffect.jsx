@@ -3,6 +3,7 @@ import { useEffect } from "react";
 
 function UseEffect() {
   const [countX, setCountX] = useState(0);
+  const [countY, setCountY] = useState(0);
   let handleClick = () => {
     setCountX(countX + 1);
   };
