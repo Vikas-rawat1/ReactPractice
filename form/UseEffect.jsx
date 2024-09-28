@@ -9,6 +9,10 @@ function UseEffect() {
   useEffect(function printSomething() {
     console.log("This is effect");
   }); //jab bhi koi bhi component render hoga to ye bhi render hoga
+
+  //passing the dependiences 
+
+  // this are nothing but our state variables 
   return (
     <>
       <h1>count={count}</h1>
