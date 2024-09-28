@@ -7,21 +7,28 @@ function UseEffect() {
   let handleClickX = () => {
     setCountX(countX + 1);
   };
-  useEffect(function printSomething() {
-    console.log("This is effect");
-  }); //jab bhi koi bhi component render hoga to ye bhi render hoga
+  // useEffect(function printSomething() {
+  //   console.log("This is effect");
+  // }); //jab bhi koi bhi component render hoga to ye bhi render hoga
 
-  //passing the dependiences
-  let handleClickY = () => {
-    setCountX(countY + 1);
-  };
-  // this are nothing but our state variables
+  // //passing the dependiences
+  // let handleClickY = () => {
+  //   setCountX(countY + 1);
+  // };
+  // // this are nothing but our state variables
+  // useEffect(
+  //   function printSomething() {
+  //     console.log("This is effect");
+  //   },
+  //   [countX]
+  // ); //passing the dependiences now the y will be not trigger
+
   useEffect(
     function printSomething() {
       console.log("This is effect");
     },
-    [countX]
-  ); //passing the dependiences now the y will be not trigger
+    [countX, countY]
+  ); //for both , 1 is donot pass any depenedience or pass the both
   return (
     <>
       <h1>countX={countX}</h1>
