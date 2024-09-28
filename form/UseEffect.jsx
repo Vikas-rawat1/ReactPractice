@@ -23,12 +23,19 @@ function UseEffect() {
   //   [countX]
   // ); //passing the dependiences now the y will be not trigger
 
+  // useEffect(
+  //   function printSomething() {
+  //     console.log("This is effect");
+  //   },
+  //   [countX, countY]//passing with array
+  // ); //for both , 1 is donot pass any depenedience or pass the both
+
   useEffect(
     function printSomething() {
       console.log("This is effect");
     },
-    [countX, countY]//passing with array
-  ); //for both , 1 is donot pass any depenedience or pass the both
+    []//passing blank [] array
+  ); //rerender ke time pe function execute nahi hoga
   return (
     <>
       <h1>countX={countX}</h1>
