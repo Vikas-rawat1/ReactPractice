@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 
 function UseEffect() {
-  const [count, setCount] = useState(0);
+  const [countX, setCountX] = useState(0);
   let handleClick = () => {
-    setCount(count + 1);
+    setCount(countX + 1);
   };
   useEffect(function printSomething() {
     console.log("This is effect");
@@ -15,7 +15,7 @@ function UseEffect() {
   // this are nothing but our state variables
   return (
     <>
-      <h1>count={count}</h1>
+      <h1>count={countX}</h1>
       <button onClick={handleClick}>Count</button>
     </>
   );
