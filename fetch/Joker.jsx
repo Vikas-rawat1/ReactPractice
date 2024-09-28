@@ -7,8 +7,9 @@ function Joker() {
   const newJoke = async () => {
     const response = await fetch(URL);
     const jsonResponse = await response.json();
-    // console.log(URL);
-    setJoke(jsonResponse.punchline);
+    // console.log(jsonResponse.setup && jsonResponse.punchline);
+    setJoke(jsonResponse);
+    setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
   return (
