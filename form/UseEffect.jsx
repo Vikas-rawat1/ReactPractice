@@ -8,6 +8,7 @@ function UseEffect() {
   return (
     <>
       <h1>count={count}</h1>
+      <button></button>
     </>
   );
 }
