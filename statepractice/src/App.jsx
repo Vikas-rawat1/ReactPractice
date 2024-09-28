@@ -27,7 +27,8 @@ function App() {
       {/* <HomeWork /> */}
       {/* <Form /> */}
       {/* <HandlingMultipleInputs /> */}
-      <Comments />
+      {/* <Comments /> */}
+      
     </>
   );
 }
