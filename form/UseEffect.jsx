@@ -12,9 +12,9 @@ function UseEffect() {
   // }); //jab bhi koi bhi component render hoga to ye bhi render hoga
 
   // //passing the dependiences
-  // let handleClickY = () => {
-  //   setCountX(countY + 1);
-  // };
+  let handleClickY = () => {
+    setCountX(countY + 1);
+  };
   // // this are nothing but our state variables
   // useEffect(
   //   function printSomething() {
