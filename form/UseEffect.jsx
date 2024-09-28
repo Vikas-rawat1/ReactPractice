@@ -27,7 +27,7 @@ function UseEffect() {
     function printSomething() {
       console.log("This is effect");
     },
-    [countX, countY]
+    [countX, countY]//passing with array
   ); //for both , 1 is donot pass any depenedience or pass the both
   return (
     <>
