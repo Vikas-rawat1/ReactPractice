@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function UseEffect() {
-  const[count]=useState()
+  const[count,setCount]=useState()
   return (
     <>UseEffect</>
   )
