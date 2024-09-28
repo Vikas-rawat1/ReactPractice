@@ -6,9 +6,9 @@ function UseEffect() {
   let handleClick = () => {
     setCount(count + 1);
   };
-  useEffect(function printSomething(){
-    console.log("This is effect")
-  });//jab bhi koi bhi component render hoga to ye bhi render hoga
+  useEffect(function printSomething() {
+    console.log("This is effect");
+  }); //jab bhi koi bhi component render hoga to ye bhi render hoga
   return (
     <>
       <h1>count={count}</h1>
