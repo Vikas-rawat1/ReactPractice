@@ -14,6 +14,9 @@ function UseEffect() {
   //passing the dependiences
 
   // this are nothing but our state variables
+  useEffect(function printSomething() {
+    console.log("This is effect");
+  },[countX]); //passing the dependiences
   return (
     <>
       <h1>countX={countX}</h1>
