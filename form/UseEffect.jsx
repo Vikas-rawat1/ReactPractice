@@ -16,8 +16,11 @@ function UseEffect() {
   // this are nothing but our state variables
   return (
     <>
-      <h1>count={countX}</h1>
+      <h1>countX={countX}</h1>
       <button onClick={handleClick}>Count</button>
+      <h1>countY={countY}</h1>
+      <button onClick={handleClick}>Count</button>
+      
     </>
   );
 }
