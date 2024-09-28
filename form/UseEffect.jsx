@@ -4,7 +4,7 @@ import { useEffect } from "react";
 function UseEffect() {
   const [countX, setCountX] = useState(0);
   let handleClick = () => {
-    setCount(countX + 1);
+    setCountX(countX + 1);
   };
   useEffect(function printSomething() {
     console.log("This is effect");
