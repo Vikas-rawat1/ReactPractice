@@ -12,6 +12,7 @@ import Ludo from "../ObjectsAndState/Ludo";
 import Counter from "./components/Counter";
 import Like from "./components/Like";
 import UseEffect from "../../form/UseEffect";
+import Joker from "../../fetch/Joker";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Form /> */}
       {/* <HandlingMultipleInputs /> */}
       {/* <Comments /> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      <Joker />
     </>
   );
 }
