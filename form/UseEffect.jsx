@@ -6,7 +6,9 @@ function UseEffect() {
   let handleClick = () => {
     setCount(count + 1);
   };
-  useEffect();
+  useEffect(function printSomething(){
+    console.log("This is effect")
+  });
   return (
     <>
       <h1>count={count}</h1>
