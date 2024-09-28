@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function UseEffect() {
-  cosnt[]=useState()
+  const[]=useState()
   return (
     <>UseEffect</>
   )
