@@ -13,7 +13,7 @@ function Joker() {
   };
 
   return ( 
-    <div>
+    <div> 
       <h1>Jokes</h1>
       {joke && (
         <>
