@@ -8,7 +8,7 @@ function Joker() {
     const response = await fetch(URL);
     const jsonResponse = await response.json();
     // console.log(URL);
-    console.log(jsonResponse.punchline);
+    setJoke(jsonResponse.punchline);
   };
 
   return (
