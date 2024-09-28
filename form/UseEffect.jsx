@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function UseEffect() {
+  useState
   return (
     <>UseEffect</>
   )
