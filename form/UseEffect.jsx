@@ -6,7 +6,7 @@ function UseEffect() {
   let handleClick = () => {
     setCount(count + 1);
   };
-  useEffect
+  useEffect();
   return (
     <>
       <h1>count={count}</h1>
