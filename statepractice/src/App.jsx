@@ -11,6 +11,7 @@ import UpdateOneArray from "../ArrayAndState/UpdateOneArray";
 import Ludo from "../ObjectsAndState/Ludo";
 import Counter from "./components/Counter";
 import Like from "./components/Like";
+import UseEffect from "../../form/UseEffect";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       {/* <Form /> */}
       {/* <HandlingMultipleInputs /> */}
       {/* <Comments /> */}
-      
+      <UseEffect/>
     </>
   );
 }
