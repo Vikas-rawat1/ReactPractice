@@ -22,7 +22,7 @@ function Joker() {
         </>
       )}
 
-      <button onClick={newJoke}>New Joke</button>
+      {/* <button onClick={newJoke}>New Joke</button> */}
     </div>
   );
 }
