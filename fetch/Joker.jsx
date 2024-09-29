@@ -22,7 +22,7 @@ import { useState } from "react";
         // </>
       // )}
 
-      <button onClick={newJoke}>New Joke</button>
+      // <button onClick={newJoke}>New Joke</button>
     </div>
   );
 }
