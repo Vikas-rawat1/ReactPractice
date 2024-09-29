@@ -18,7 +18,7 @@ import { useState } from "react";
       // {joke && (
         // <>
           <h1>{joke.setup}</h1>
-          <h1>{joke.punchline}</h1>
+          {/* <h1>{joke.punchline}</h1> */}
         // </>
       // )}
 
