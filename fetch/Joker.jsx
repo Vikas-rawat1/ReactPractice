@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 // function Joker() {
-  const [joke, setJoke] = useState(null);
+  // const [joke, setJoke] = useState(null);
   const URL = "https://official-joke-api.appspot.com/random_joke";
   const newJoke = async () => {
     const response = await fetch(URL);
