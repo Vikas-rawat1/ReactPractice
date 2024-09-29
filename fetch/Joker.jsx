@@ -9,7 +9,7 @@ import { useState } from "react";
     // const jsonResponse = await response.json();
     // console.log(jsonResponse.setup && jsonResponse.punchline);
     // console.log(jsonResponse);
-    // setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
+    setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
   return (
