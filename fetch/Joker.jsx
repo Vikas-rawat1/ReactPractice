@@ -10,7 +10,7 @@ import { useState } from "react";
     // console.log(jsonResponse.setup && jsonResponse.punchline);
     // console.log(jsonResponse);
     // setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
-  // };
+  };
 
   return (
     <div>
