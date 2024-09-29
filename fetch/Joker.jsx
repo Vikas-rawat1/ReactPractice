@@ -25,6 +25,6 @@ import { useState } from "react";
       // <button onClick={newJoke}>New Joke</button>
     // </div>
   // );
-// }
+}
 
 export default Joker;
