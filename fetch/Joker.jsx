@@ -8,7 +8,7 @@ import { useState } from "react";
     // const response = await fetch(URL);
     // const jsonResponse = await response.json();
     // console.log(jsonResponse.setup && jsonResponse.punchline);
-    // console.log(jsonResponse);
+    console.log(jsonResponse);
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
