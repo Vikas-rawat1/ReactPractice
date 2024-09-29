@@ -13,7 +13,7 @@ import { useState } from "react";
   // };
 
   // return (
-    <div>
+    // <div>
       {/* <h1>Jokes</h1> */}
       {joke && (
         <>
