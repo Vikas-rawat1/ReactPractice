@@ -14,7 +14,7 @@ function Joker() {
 
   return (
     <div>
-      {/* <h1>Jokes</h1> */}
+      <h1>Jokes</h1>
       {joke && (
         <>
           <h1>{joke.setup}</h1>
