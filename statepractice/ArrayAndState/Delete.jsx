@@ -11,7 +11,7 @@ function Delete() {
       return;
     }
 
-    setDeleteItem([...deleteItem, addItem]);
+    // setDeleteItem([...deleteItem, addItem]);
     // setAddItem("");
   };
 
