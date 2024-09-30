@@ -23,7 +23,7 @@ function Delete() {
 
         <input
           type="text"
-          placeholder="Add something for DELETE"
+          placeholder="Add some thing for DELETE"
           value={addItem}
           onChange={(e) => setAddItem(e.target.value)}
         />
