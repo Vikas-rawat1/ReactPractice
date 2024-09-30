@@ -7,7 +7,7 @@ function Delete() {
 
   const handleDeletion = () => {
     if (addItem.trim() === "") {
-      alert("Please enter a task name");
+      // alert("Please enter a task name");
       // return;
     // }
 
