@@ -24,7 +24,7 @@ function Delete() {
         <input
           type="text"
           placeholder="Add something for DELETE"
-          value={addItem}
+          // value={addItem}
           onChange={(e) => setAddItem(e.target.value)}
         />
         <button onClick={handleDeletion}>ADD</button>
