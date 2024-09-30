@@ -15,7 +15,7 @@ function Delete() {
     setAddItem("");
   };
 
-  return (
+  return ( 
     <>
       <div>
         <h1>Delete data from array</h1>
