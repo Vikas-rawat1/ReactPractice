@@ -35,7 +35,7 @@ function Delete() {
               <p>{val}</p>
               <button
                 onClick={() => {
-                  // return setDeleteItem(
+                  return setDeleteItem(
                     deleteItem.filter((val, index) => index !== indx)
                   );
                 }}
