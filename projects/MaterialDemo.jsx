@@ -2,10 +2,12 @@ import { Button } from "@mui/material";
 import React from "react";
 
 function MaterialDemo() {
-  return <>
-    Material UI Demo
-    <Button>Click me</Button>
-  </>
+  return (
+    <>
+      <p> Material UI Demo</p>
+      <Button>Click me</Button>
+    </>
+  );
 }
 
 export default MaterialDemo;
