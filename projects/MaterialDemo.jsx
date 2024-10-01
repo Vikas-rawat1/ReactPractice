@@ -1,7 +1,7 @@
 import React from "react";
 
 function MaterialDemo() {
-  return <div></div>;
+  return <></>;
 }
 
 export default MaterialDemo;
