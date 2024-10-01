@@ -12,7 +12,7 @@ function Joker() {
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
-  useEffect(async function getNewJoke() {
+  useEffect(()=>{async function getNewJoke() {
     const response = await fetch(URL);
     const jsonRespone=await response.json();
     console.log(jsonRespone)
