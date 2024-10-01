@@ -13,12 +13,12 @@ function Joker() {
   };
 
   useEffect(() => {
- return   async function getNewJoke() {
+    return async function getNewJoke() {
       const response = await fetch(URL);
       const jsonRespone = await response.json();
       console.log(jsonRespone);
       setJoke({ setup: jsonRespone.setup, punchline: jsonRespone.punchline });
-    }
+    };
   }, []);
   return (
     <>
