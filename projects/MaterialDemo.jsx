@@ -8,6 +8,8 @@ function MaterialDemo() {
       <Button variant="contained">Click me</Button>
       <br />
       <Button variant="outlined">Click me</Button>
+      <br />
+      <Button variant="text">Click me</Button>
     </div>   
   );
 }
