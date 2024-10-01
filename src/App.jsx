@@ -4,6 +4,7 @@ import HelloColors from "./components/props/Activity/HelloColors";
 import Cart from "./components/amazonCart/Cart";
 import Button from "./components/ClickEvents/Buttons";
 import Form from "./components/ClickEvents/Form";
+import SearchBox from "../projects/SearchBox";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
 
       {/* <Cart /> */}
       {/* <Button/> */}
-      <Form/>
+      {/* <Form/> */}
+      <SearchBox/>
     </>
   );
 }
