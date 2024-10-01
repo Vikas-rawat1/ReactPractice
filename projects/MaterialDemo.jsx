@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function MaterialDemo() {
-  return (
-    <div>MaterialDemo</div>
-  )
+  return <div></div>;
 }
 
-export default MaterialDemo
+export default MaterialDemo;
