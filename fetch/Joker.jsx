@@ -12,11 +12,9 @@ function Joker() {
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
-  useEffect(function getNewJoke(
-    {
-      
-    }
-  ))
+  useEffect(function getNewJoke(){
+    
+  })
   return (
     <>
       <h1 style={{textAlign:"center"}}>Jokes</h1>
