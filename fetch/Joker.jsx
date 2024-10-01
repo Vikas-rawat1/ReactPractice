@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 function Joker() {
@@ -12,6 +12,7 @@ function Joker() {
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
+  useEffect()
   return (
     <>
       <h1 style={{textAlign:"center"}}>Jokes</h1>
