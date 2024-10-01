@@ -3,7 +3,7 @@ import React from "react";
 
 function MaterialDemo() {
   return (
-    <div style={}>
+    <div style={{padding:"2vw"}}>
       <p> Material UI Demo</p>
       <Button variant="contained">Click me</Button>
     </div>   
