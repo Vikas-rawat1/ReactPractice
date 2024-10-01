@@ -5,6 +5,7 @@ import Cart from "./components/amazonCart/Cart";
 import Button from "./components/ClickEvents/Buttons";
 import Form from "./components/ClickEvents/Form";
 import SearchBox from "../projects/SearchBox";
+import MaterialDemo from "../projects/MaterialDemo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* <Cart /> */}
       {/* <Button/> */}
       {/* <Form/> */}
+      <MaterialDemo/>
       <SearchBox/>
     </>
   );
