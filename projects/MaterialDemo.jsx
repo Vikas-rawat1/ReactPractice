@@ -5,7 +5,8 @@ function MaterialDemo() {
   return (
     <>
       <p> Material UI Demo</p>
-      <Button>Click me</Button>
+      <Button variant
+      >Click me</Button>
     </>
   );
 }
