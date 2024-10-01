@@ -12,8 +12,8 @@ function Joker() {
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
-  useEffect(function getNewJoke(){
-    
+  useEffect(async function getNewJoke(){
+
   })
   return (
     <>
