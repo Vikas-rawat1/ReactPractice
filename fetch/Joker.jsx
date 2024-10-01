@@ -12,13 +12,13 @@ function Joker() {
     setJoke({ setup: jsonResponse.setup, punchline: jsonResponse.punchline });
   };
 
-  useEffect(async function getNewJoke(){
-const response=await fetch(URL);
-  })
+  useEffect(async function getNewJoke() {
+    const response = await fetch(URL);
+  });
   return (
     <>
-      <h1 style={{textAlign:"center"}}>Jokes</h1>
-      <div style={{textAlign:"center"}}>
+      <h1 style={{ textAlign: "center" }}>Jokes</h1>
+      <div style={{ textAlign: "center" }}>
         {joke && (
           <>
             <h1>{joke.setup}</h1>
