@@ -16,7 +16,8 @@ function Joker() {
     const response = await fetch(URL);
     const jsonRespone=await response.json();
     console.log(jsonRespone)
-  });
+    setJoke({setup:jsonRespone.setup, punchline:jsonRespone.punchline})
+  },[]);
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Jokes</h1>
