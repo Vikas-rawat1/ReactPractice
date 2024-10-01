@@ -14,18 +14,17 @@ function Joker() {
 
   return (
     <>
-
       <h1>Jokes</h1>
-    <div>
-      {joke && (
-        <>
-          <h1>{joke.setup}</h1>
-          <h1>{joke.punchline}</h1>
-        </>
-      )}
+      <div>
+        {joke && (
+          <>
+            <h1>{joke.setup}</h1>
+            <h1>{joke.punchline}</h1>
+          </>
+        )}
 
-      <button onClick={newJoke}>New Joke</button>
-    </div>
+        <button onClick={newJoke}>New Joke</button>
+      </div>
     </>
   );
 }
