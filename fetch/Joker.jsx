@@ -18,6 +18,7 @@ function Joker() {
       const jsonRespone = await response.json();
       console.log(jsonRespone);
       setJoke({ setup: jsonRespone.setup, punchline: jsonRespone.punchline });
+      getNewJoke()
     }
   }, []);
   return (
