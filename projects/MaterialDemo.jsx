@@ -5,8 +5,7 @@ function MaterialDemo() {
   return (
     <>
       <p> Material UI Demo</p>
-      <Button variant
-      >Click me</Button>
+      <Button variant="contained">Click me</Button>
     </>
   );
 }
