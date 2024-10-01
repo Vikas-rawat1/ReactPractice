@@ -6,6 +6,7 @@ function MaterialDemo() {
     <div style={{padding:"2vw"}}>
       <p> Material UI Demo</p>
       <Button variant="contained">Click me</Button>
+      <Button variant="contained">Click me</Button>
     </div>   
   );
 }
