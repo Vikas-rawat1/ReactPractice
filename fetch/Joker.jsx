@@ -13,7 +13,7 @@ function Joker() {
   };
 
   useEffect(async function getNewJoke(){
-
+const response=await fetch(URL);
   })
   return (
     <>
