@@ -4,7 +4,7 @@ import React from "react";
 function MaterialDemo() {
   return <>
     Material UI Demo
-    <Button>d</Button>
+    <Button>Click me</Button>
   </>
 }
 
