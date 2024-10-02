@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 function SearchBox() {
-  const [inputBox, setInputBox] = useState();
+  const [inputBox, setInputBox] = useState("");
   console.log(inputBox)
   return (
     <>
-      <div>
-        <input type="text" placeholder="Search" value={inputBox}/>
+      <div className="bg-zinc-400 w-full h-screen">
+        <input type="text" placeholder="Search" />
         <button>Search</button>
       </div>
     </>
