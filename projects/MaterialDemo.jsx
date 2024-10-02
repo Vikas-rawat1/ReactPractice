@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import React from "react";
 
 function MaterialDemo() {
-  // return (
+  return (
     <div style={{ padding: "2vw" }}>
       <p> Material UI Demo</p>
       <Button variant="text">Click me</Button>
