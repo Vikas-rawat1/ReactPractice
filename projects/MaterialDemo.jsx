@@ -3,7 +3,7 @@ import React from "react";
 
 function MaterialDemo() {
   return (
-    <div style={{padding:"2vw"}}>
+    <div style={{ padding: "2vw" }}>
       <p> Material UI Demo</p>
       <Button variant="text">Click me</Button>
       <br />
@@ -12,7 +12,7 @@ function MaterialDemo() {
       <br />
       <br />
       <Button variant="outlined">Click me</Button>
-    </div>   
+    </div>
   );
 }
 
