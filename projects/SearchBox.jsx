@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function SearchBox() {
-  useState();
+  const [inputBox, setInputBox] = useState();
   return (
     <>
       <div>
