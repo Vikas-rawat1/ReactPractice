@@ -12,7 +12,7 @@ function MaterialDemo() {
       <br />
       <br />
       <Button variant="outlined">Click me</Button>
-    {/* </div> */}
+    </div>
   );
 }
 
