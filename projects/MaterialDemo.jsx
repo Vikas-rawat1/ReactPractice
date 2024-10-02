@@ -11,7 +11,7 @@
       <Button variant="contained">Click me</Button>
       <br />
       {/* <br /> */}
-      // <Button variant="outlined">Click me</Button>
+      <Button variant="outlined">Click me</Button>
     </div>   
   );
 // }
