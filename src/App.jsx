@@ -17,8 +17,8 @@ function App() {
       {/* <Cart /> */}
       {/* <Button/> */}
       {/* <Form/> */}
-      <MaterialDemo/>
-      {/* <SearchBox/> */}
+      {/* <MaterialDemo/> */}
+      <SearchBox/>
     </>
   );
 }
