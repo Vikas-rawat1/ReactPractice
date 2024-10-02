@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 function SearchBox() {
+  useState();
   return (
     <>
       <div>
