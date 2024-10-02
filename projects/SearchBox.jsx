@@ -7,8 +7,8 @@ function SearchBox() {
 
   let handleOnSubmit = (e) => {
     e.preventDefault();
-    console.log(city)
-    setCity("")
+    console.log(city);
+    setCity("");
   };
   return (
     <>
