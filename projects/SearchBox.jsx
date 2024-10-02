@@ -2,12 +2,12 @@ import { useState } from "react";
 
 function SearchBox() {
   const [inputBox, setInputBox] = useState("");
-  console.log(inputBox)
+  // console.log(inputBox)
   return (
     <>
-      <div className="bg-zinc-400 w-full h-screen">
+      <div className="bg-zinc-900 w-full h-screen">
         <input type="text" placeholder="Search" />
-        <button>Search</button>
+        <button className="bg-red-600 w-64 h-40">Search</button>
       </div>
     </>
   );
