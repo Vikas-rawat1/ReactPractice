@@ -2,6 +2,8 @@ import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
 function SearchBox() {
+  const [city, setCity] = useState("");
+
   const API_URL =
     // "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
     "https://api.openweathermap.org/data/2.5/weather";
@@ -9,10 +11,9 @@ function SearchBox() {
   const API_KEY = "fc694d073c1f046f4ab5e5c37fedcdc4";
 
   let getWeatherInfo = async () => {
-    await fetch(`${API_URL}`)//which url to get the data 
+    await fetch(`${API_URL}`); //which url to get the data
   };
 
-  const [city, setCity] = useState("");
   // console.log(city);
 
   let handleOnSubmit = (e) => {
