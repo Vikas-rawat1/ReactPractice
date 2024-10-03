@@ -85,7 +85,7 @@ function SearchBox() {
             </>
           )}
         </form>
-        <InfoBox />
+        <InfoBox weather={weather} />
       </div>
     </>
   );
