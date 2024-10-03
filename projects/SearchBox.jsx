@@ -48,8 +48,10 @@ function SearchBox() {
         style={{
           marginLeft: "3vw",
           marginTop: "2vw",
-          marginLeft: "50%",
-          marginRight: "50%",
+          display: "flex",
+          flexDirection:"column",
+          justifyContent: "center",
+          margin: "auto",
         }}
       >
         <form action="" onSubmit={handleOnSubmit}>
