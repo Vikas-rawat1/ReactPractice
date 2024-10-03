@@ -6,8 +6,7 @@ function SearchBox() {
     "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
   console.log(API_URL);
 
-  const API_KEY = "fc694d073c1f046f4ab5e5c37fedcdc4
-";
+  const API_KEY = "fc694d073c1f046f4ab5e5c37fedcdc4";
 
   const [city, setCity] = useState("");
   // console.log(city);
