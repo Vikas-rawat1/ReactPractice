@@ -9,7 +9,6 @@ import CardActions from "@mui/material/CardActions";
 function InfoBox({ weather }) {
   return (
     <div>
-      {" "}
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia
@@ -23,11 +22,15 @@ function InfoBox({ weather }) {
               {}
             </Typography>
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
-              <p>Humidity {weather.humidity}</p>
-              <p>Temperature {weather.temp}</p>
-              <p>Max Temperature {weather.tempMax}</p>
-              <p>Min Temperature {weather.tempMin}</p>
-              <p>Weather: {weather.weather}</p>
+              {weather && (
+                <>
+                  <p>Humidity {weather.humidity}</p>
+                  <p>Temperature {weather.temp}</p>
+                  <p>Max Temperature {weather.tempMax}</p>
+                  <p>Min Temperature {weather.tempMin}</p>
+                  <p>Weather: {weather.weather}</p>
+                </>
+              )}
             </Typography>
           </CardContent>
         </CardActionArea>
