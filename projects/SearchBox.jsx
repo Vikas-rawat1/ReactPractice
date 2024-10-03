@@ -52,6 +52,9 @@ function SearchBox() {
           >
             Submit
           </Button>
+
+<p>{result}</p>
+
         </form>
       </div>
     </>
