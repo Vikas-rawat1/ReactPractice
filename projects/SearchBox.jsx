@@ -44,7 +44,7 @@ function SearchBox() {
   };
   return (
     <>
-      <div style={{ marginLeft: "3vw", marginTop: "2vw" }}>
+      <div style={{ marginLeft: "3vw", marginTop: "2vw",margin:"auto" }}>
         <form action="" onSubmit={handleOnSubmit}>
           <TextField
             id="city"
