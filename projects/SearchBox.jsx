@@ -71,19 +71,19 @@ function SearchBox() {
           >
             Submit
           </Button>
-          {weather && (
+          {/* {weather && (
             <>
               <p>Humidity {weather.humidity}</p>
               <p>Temperature {weather.temp}</p>
               <p>Max Temperature {weather.tempMax}</p>
               <p>Min Temperature {weather.tempMin}</p>
               <p>Weather: {weather.weather}</p>
-              {/* <img
+              <img
                 src={`http://openweathermap.org/img/wn/${weather.icon}@2x.png`}
                 alt="weather icon"
-              /> */}
+              />
             </>
-          )}
+          )} */}
         </form>
         <InfoBox weather={weather} />
       </div>

@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 
-function InfoBox() {
+function InfoBox({weather}) {
   return (
     <div>
       {" "}
@@ -23,8 +23,11 @@ function InfoBox() {
               {}
             </Typography>
             <Typography variant="body2" sx={{ color: "text.secondary" }}>
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+            <p>Humidity {weather.humidity}</p>
+              <p>Temperature {weather.temp}</p>
+              <p>Max Temperature {weather.tempMax}</p>
+              <p>Min Temperature {weather.tempMin}</p>
+              <p>Weather: {weather.weather}</p>
             </Typography>
           </CardContent>
         </CardActionArea>
