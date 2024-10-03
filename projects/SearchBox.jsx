@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
+import InfoBox from "./InfoBox";
 function SearchBox() {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
@@ -73,6 +74,7 @@ function SearchBox() {
             </>
           )}
         </form>
+        <InfoBox/>
       </div>
     </>
   );
