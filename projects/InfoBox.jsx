@@ -1,9 +1,6 @@
-
-
 function InfoBox({ weather }) {
   return (
     <div>
-
       {weather && (
         <>
           <p>Humidity {weather.humidity}</p>
