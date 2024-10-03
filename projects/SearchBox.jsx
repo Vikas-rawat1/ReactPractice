@@ -39,8 +39,8 @@ function SearchBox() {
   let handleOnSubmit = (e) => {
     e.preventDefault();
     console.log(city);
-    setCity("");
     getWeatherInfo();
+    setCity("");
   };
   return (
     <>
