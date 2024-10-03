@@ -54,8 +54,9 @@ function SearchBox() {
           >
             Submit
           </Button>
-
-          <p>{getWeatherInfo.result}</p>
+          {weather.map((item, index) => (
+            <p>Humidity{}</p>
+          ))}
         </form>
       </div>
     </>
