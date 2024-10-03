@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
 function SearchBox() {
   const [city, setCity] = useState("");
-  const [weather, setWeather] = useState();
+  const [weather, setWeather] = useState(null);
 
   const API_URL =
     // "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
@@ -16,16 +16,21 @@ function SearchBox() {
     let jsonResponse = await response.json();
     // console.log(jsonResponse);
     // console.log(jsonResponse.main.humidity);
-    let result = {
-      temp: jsonResponse.main.temp,
-      tempMax: jsonResponse.main.temp_max,
-      tempMin: jsonResponse.main.temp_min,
-      humidity: jsonResponse.main.humidity,
-      weather: jsonResponse.weather[0].description,
-      icon: jsonResponse.weather[0].icon,
-    };
-    console.log(result);
-    setWeather(result);
+    if (response.ok) {
+      let result = {
+        temp: jsonResponse.main.temp,
+        tempMax: jsonResponse.main.temp_max,
+        tempMin: jsonResponse.main.temp_min,
+        humidity: jsonResponse.main.humidity,
+        weather: jsonResponse.weather[0].description,
+        icon: jsonResponse.weather[0].icon,
+      };
+      // console.log(result);
+      setWeather(result);
+    } else {
+      alert("City not found. Please enter a valid city name.");
+      setWeather(null);
+    }
   };
 
   // console.log(city);
@@ -54,9 +59,19 @@ function SearchBox() {
           >
             Submit
           </Button>
-          {weather.map((item, index) => (
-            <p>Humidity{}</p>
-          ))}
+          {weather && (
+            <>
+              <p>Humidity {weather.humidity}</p>
+              <p>Temperature {weather.temp}</p>
+              <p>Max Temperature {weather.tempMax}</p>
+              <p>Min Temperature {weather.tempMin}</p>
+              <p>Weather: {weather.weather}</p>
+              {/* <img
+                src={`http://openweathermap.org/img/wn/${weather.icon}@2x.png`}
+                alt="weather icon"
+              /> */}
+            </>
+          )}
         </form>
       </div>
     </>
