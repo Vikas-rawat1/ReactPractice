@@ -15,11 +15,11 @@ function SearchBox() {
   let getWeatherInfo = async () => {
     let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`); //which url to get the data
     let jsonResponse = await response.json();
-    console.log(jsonResponse);
+    // console.log(jsonResponse);
     // console.log(jsonResponse.main.humidity);
     if (response.ok) {
       let result = {
-        city:jsonResponse.name,
+        city: jsonResponse.name,
         temp: jsonResponse.main.temp,
         tempMax: jsonResponse.main.temp_max,
         tempMin: jsonResponse.main.temp_min,
@@ -48,7 +48,7 @@ function SearchBox() {
       <div
         style={{
           marginLeft: "3vw",
- 
+
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -57,9 +57,8 @@ function SearchBox() {
           margin: "auto",
         }}
       >
-        <form action="" onSubmit={handleOnSubmit}  style={{marginTop:"4vw"}}>
+        <form action="" onSubmit={handleOnSubmit} style={{ marginTop: "4vw" }}>
           <TextField
-         
             id="city"
             label="City Name"
             variant="outlined"
