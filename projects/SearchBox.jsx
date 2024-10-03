@@ -53,8 +53,7 @@ function SearchBox() {
             Submit
           </Button>
 
-<p>{result}</p>
-
+          <p>{getWeatherInfo.result}</p>
         </form>
       </div>
     </>
