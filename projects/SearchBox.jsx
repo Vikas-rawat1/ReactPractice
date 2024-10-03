@@ -23,6 +23,7 @@ function SearchBox() {
       weather: jsonResponse.weather[0].description,
       icon: jsonResponse.weather[0].icon,
     };
+    console.log(result);
   };
 
   // console.log(city);
