@@ -14,6 +14,15 @@ function SearchBox() {
     let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`); //which url to get the data
     let jsonResponse = await response.json();
     console.log(jsonResponse);
+    console.log(jsonResponse.main.humidity);
+    let result = {
+      temp: jsonResponse.temp,
+      tempMax: jsonResponse.temp_max,
+      tempMin: jsonResponse.temp_min,
+      humidity: jsonResponse.main.humidity,
+      weather: jsonResponse.weather[0].description,
+      icon: jsonResponse.weather[0].icon,
+    };
   };
 
   // console.log(city);
