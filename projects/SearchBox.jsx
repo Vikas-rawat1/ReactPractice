@@ -15,7 +15,7 @@ function SearchBox() {
   let getWeatherInfo = async () => {
     let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`); //which url to get the data
     let jsonResponse = await response.json();
-    // console.log(jsonResponse);
+    console.log(jsonResponse);
     // console.log(jsonResponse.main.humidity);
     if (response.ok) {
       let result = {
@@ -39,7 +39,7 @@ function SearchBox() {
 
   let handleOnSubmit = (e) => {
     e.preventDefault();
-    console.log(city);
+    // console.log(city);
     getWeatherInfo();
     setCity("");
   };
