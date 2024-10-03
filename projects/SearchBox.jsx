@@ -49,8 +49,10 @@ function SearchBox() {
           marginLeft: "3vw",
           marginTop: "2vw",
           display: "flex",
-          flexDirection:"column",
+          flexDirection: "column",
           justifyContent: "center",
+          alignItems: "center",
+          gap: "2vw",
           margin: "auto",
         }}
       >
