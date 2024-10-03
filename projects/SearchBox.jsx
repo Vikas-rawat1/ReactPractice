@@ -12,7 +12,7 @@ function SearchBox() {
 
   let getWeatherInfo = async () => {
     let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`); //which url to get the data
-    let jsonResponse=response.json();
+    let jsonResponse= await response.json();
     console.log(jsonResponse)
   };
 
