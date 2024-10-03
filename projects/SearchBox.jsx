@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
 function SearchBox() {
   const [city, setCity] = useState("");
-  const [weather,setWeather] = useState();
+  const [weather, setWeather] = useState();
 
   const API_URL =
     // "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
@@ -25,6 +25,7 @@ function SearchBox() {
       icon: jsonResponse.weather[0].icon,
     };
     console.log(result);
+    setWeather(result);
   };
 
   // console.log(city);
