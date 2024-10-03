@@ -38,25 +38,26 @@ function InfoBox({ weather }) {
           >
             Weather Information
           </h3>
-
           <div style={infoStyle}>
             <p style={textStyle}>
               <strong>City:</strong> {weather.city}
             </p>
           </div>
-
           <div style={infoStyle}>
             <p style={textStyle}>
               <strong>Humidity:</strong> {weather.humidity}%
             </p>
           </div>
-
           <div style={infoStyle}>
             <p style={textStyle}>
               <strong>Temperature:</strong> {Math.round(weather.temp - 273.15)}
               °C
             </p>
           </div>
+          {/*✋✋ The subtraction of 273.15 is necessary because the temperature data
+          you receive from the OpenWeatherMap API is in Kelvin, not Celsius. To
+          convert Kelvin to Celsius, you need to subtract 273.15.✋✋
+         🌟😃🌟 FORMULA : Celsius = Kelvin - 273.15 🌟😃🌟*/}
 
           <div style={infoStyle}>
             <p style={textStyle}>
@@ -64,14 +65,12 @@ function InfoBox({ weather }) {
               °C
             </p>
           </div>
-
           <div style={infoStyle}>
             <p style={textStyle}>
               <strong>Min Temp:</strong> {Math.round(weather.tempMin - 273.15)}
               °C
             </p>
           </div>
-
           <div style={infoStyle}>
             <p style={textStyle}>
               <strong>Weather:</strong> {weather.weather}
