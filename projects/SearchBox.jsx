@@ -4,6 +4,7 @@ import { Button } from "@mui/material";
 function SearchBox() {
   const API_URL =
     "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
+  console.log(API_URL);
 
   const [city, setCity] = useState("");
   // console.log(city);
