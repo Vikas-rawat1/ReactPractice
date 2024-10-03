@@ -2,6 +2,9 @@ import { useState } from "react";
 import TextField from "@mui/material/TextField";
 import { Button } from "@mui/material";
 function SearchBox() {
+  const API_URL =
+    "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
+
   const [city, setCity] = useState("");
   // console.log(city);
 
