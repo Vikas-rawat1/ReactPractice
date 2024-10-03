@@ -15,10 +15,11 @@ function SearchBox() {
   let getWeatherInfo = async () => {
     let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`); //which url to get the data
     let jsonResponse = await response.json();
-    // console.log(jsonResponse);
+    console.log(jsonResponse);
     // console.log(jsonResponse.main.humidity);
     if (response.ok) {
       let result = {
+        city:jsonResponse.name,
         temp: jsonResponse.main.temp,
         tempMax: jsonResponse.main.temp_max,
         tempMin: jsonResponse.main.temp_min,
@@ -26,7 +27,7 @@ function SearchBox() {
         weather: jsonResponse.weather[0].description,
         icon: jsonResponse.weather[0].icon,
       };
-      // console.log(result);
+      console.log(result);
       setWeather(result);
     } else {
       alert("City not found. Please enter a valid city name.");

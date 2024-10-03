@@ -3,6 +3,7 @@ function InfoBox({ weather }) {
     <div>
       {weather && (
         <>
+          <p>City {weather.city}</p>
           <p>Humidity {weather.humidity}</p>
           <p>Temperature {weather.temp}</p>
           <p>Max Temperature {weather.tempMax}</p>
