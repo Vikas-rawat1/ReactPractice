@@ -56,6 +56,7 @@ function SearchBox() {
             style={{ marginTop: "0.7vw", marginLeft: "2vw" }}
             variant="contained"
             type="submit"
+            className="mt-20"
           >
             Submit
           </Button>
