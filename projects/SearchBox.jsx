@@ -30,7 +30,7 @@ function SearchBox() {
       setWeather(result);
     } else {
       alert("City not found. Please enter a valid city name.");
-      setWeather(null); 
+      setWeather(null);
     }
   };
 
@@ -44,7 +44,14 @@ function SearchBox() {
   };
   return (
     <>
-      <div style={{ marginLeft: "3vw", marginTop: "2vw",marginLeft:"20vw" }}>
+      <div
+        style={{
+          marginLeft: "3vw",
+          marginTop: "2vw",
+          marginLeft: "50%",
+          marginRight: "50%",
+        }}
+      >
         <form action="" onSubmit={handleOnSubmit}>
           <TextField
             id="city"
@@ -74,7 +81,7 @@ function SearchBox() {
             </>
           )}
         </form>
-        <InfoBox/>
+        <InfoBox />
       </div>
     </>
   );
