@@ -11,7 +11,7 @@ function SearchBox() {
   const API_KEY = "fc694d073c1f046f4ab5e5c37fedcdc4";
 
   let getWeatherInfo = async () => {
-    await fetch(`${API_URL}`); //which url to get the data
+    await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`); //which url to get the data
   };
 
   // console.log(city);
