@@ -47,7 +47,7 @@ function SearchBox() {
       <div
         style={{
           marginLeft: "3vw",
-          marginTop: "2vw",
+ 
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -56,8 +56,9 @@ function SearchBox() {
           margin: "auto",
         }}
       >
-        <form action="" onSubmit={handleOnSubmit}>
+        <form action="" onSubmit={handleOnSubmit}  style={{marginTop:"4vw"}}>
           <TextField
+         
             id="city"
             label="City Name"
             variant="outlined"
