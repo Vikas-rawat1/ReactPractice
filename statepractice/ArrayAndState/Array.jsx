@@ -20,7 +20,7 @@ function Array() {
       return [...prevArr, "blue moves"];
     });
   };
-
+ 
   // setArr()
   return (
     <>
