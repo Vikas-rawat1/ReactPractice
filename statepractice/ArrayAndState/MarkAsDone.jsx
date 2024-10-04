@@ -9,7 +9,7 @@ function MarkAsDone() {
     setTask([...task, { val: inputVal, isDone: false }]);
     setInputVal("");
     // console.log(task)
-  }; 
+  };  
  
   let UpdateAllUpperCase = () => {
     setTask(task.map((task) => ({ ...task, val: task.val.toUpperCase() })));
