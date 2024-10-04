@@ -20,7 +20,7 @@ function MarkAsDone() {
       return prev.map((task, inx) =>
         inx === index ? { ...task, val: task.val.toUpperCase() } : task
       );
-    });
+    }); 
   };
 
   //Handle mark done
