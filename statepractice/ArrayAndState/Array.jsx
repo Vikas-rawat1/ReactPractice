@@ -8,7 +8,6 @@ function Array() {
     // console.log(move);
     //CALLBACK 🌟🌟  
     setMove((prev) => ({ ...prev, blue:  (move.blue += 1) }));
-
     //yaha pe push ke wjhe se possible nahi he ye setmove ke wjhe se possible ho pa raha hai kuki yha pe ye original array me changes hora hai isliye wo re-render nahi kar paa raha hai
 
     // arr.push("blue move");
