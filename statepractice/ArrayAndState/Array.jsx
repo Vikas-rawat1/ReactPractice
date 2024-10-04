@@ -6,7 +6,7 @@ function Array() {
     // move.blue += 1;  
     // setMove({ ...move, blue: (move.blue += 1) }); 
     // console.log(move);
-    //CALLBACK 🌟🌟 
+    //CALLBACK 🌟🌟  
 
     setMove((prev) => ({ ...prev, blue:  (move.blue += 1) }));
  
