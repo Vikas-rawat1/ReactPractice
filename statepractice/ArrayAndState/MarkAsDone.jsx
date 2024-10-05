@@ -4,13 +4,12 @@ function MarkAsDone() {
   const [inputVal, setInputVal] = useState([]);
   // console.log(inputVal);
   const [task, setTask] = useState([]);
-
+ 
   let handleAddClick = () => {
     setTask([...task, { val: inputVal, isDone: false }]);
     setInputVal("");
     // console.log(task)
-  };
-
+  };   
   let UpdateAllUpperCase = () => {
     setTask(task.map((task) => ({ ...task, val: task.val.toUpperCase() })));
   };
@@ -20,7 +19,7 @@ function MarkAsDone() {
       return prev.map((task, inx) =>
         inx === index ? { ...task, val: task.val.toUpperCase() } : task
       );
-    });
+    }); 
   };
 
   //Handle mark done
