@@ -26,7 +26,7 @@ function SearchBox() {
         humidity: jsonResponse.main.humidity,
         weather: jsonResponse.weather[0].description,
         icon: jsonResponse.weather[0].icon,
-      // };
+      };
       // console.log(result);
       setWeather(result);
     } else {
