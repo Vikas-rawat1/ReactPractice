@@ -33,7 +33,7 @@ function SearchBox() {
       // alert("City not found. Please enter a valid city name.");
       // setWeather(null);
     // }
-  };
+  // };
 
   // console.log(city);
 
