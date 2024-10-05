@@ -31,7 +31,7 @@ function SearchBox() {
       // setWeather(result);
     // } else {
       // alert("City not found. Please enter a valid city name.");
-      setWeather(null);
+      // setWeather(null);
     }
   };
 
