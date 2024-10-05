@@ -30,7 +30,7 @@ function SearchBox() {
       // console.log(result);
       // setWeather(result);
     // } else {
-      alert("City not found. Please enter a valid city name.");
+      // alert("City not found. Please enter a valid city name.");
       setWeather(null);
     }
   };
