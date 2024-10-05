@@ -19,13 +19,13 @@ function SearchBox() {
     // console.log(jsonResponse.main.humidity);
     if (response.ok) {
       // let result = {
-        // city: jsonResponse.name,
-        // temp: jsonResponse.main.temp,
-        // tempMax: jsonResponse.main.temp_max,
-        // tempMin: jsonResponse.main.temp_min,
-        // humidity: jsonResponse.main.humidity,
-        // weather: jsonResponse.weather[0].description,
-        // icon: jsonResponse.weather[0].icon,
+      // city: jsonResponse.name,
+      // temp: jsonResponse.main.temp,
+      // tempMax: jsonResponse.main.temp_max,
+      // tempMin: jsonResponse.main.temp_min,
+      // humidity: jsonResponse.main.humidity,
+      // weather: jsonResponse.weather[0].description,
+      // icon: jsonResponse.weather[0].icon,
       // };
       // console.log(result);
       setWeather(result);
