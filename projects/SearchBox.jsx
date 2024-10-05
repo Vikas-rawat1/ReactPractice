@@ -17,7 +17,7 @@ function SearchBox() {
     let jsonResponse = await response.json();
     console.log(jsonResponse);
     // console.log(jsonResponse.main.humidity);
-    if (response.ok) {
+    // if (response.ok) {
       // let result = {
       // city: jsonResponse.name,
       // temp: jsonResponse.main.temp,
