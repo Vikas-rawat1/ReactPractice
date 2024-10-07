@@ -35,7 +35,7 @@ function SearchBox() {
     }
   };
 
-  console.log(city);
+  // console.log(city);
 
   let handleOnSubmit = (e) => {
     e.preventDefault();
