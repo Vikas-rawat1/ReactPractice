@@ -53,7 +53,7 @@ function SearchBox() {
           flexDirection: "column",
           justifyContent: "center",
           // alignItems: "center",
-          gap: "2vw",
+          // gap: "2vw",
           margin: "auto",
         }}
       >
