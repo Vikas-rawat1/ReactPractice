@@ -47,7 +47,7 @@ function SearchBox() {
     <>
       <div
         style={{
-          marginLeft: "3vw",
+          // marginLeft: "3vw",
 
           display: "flex",
           flexDirection: "column",
