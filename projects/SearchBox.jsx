@@ -28,7 +28,7 @@ function SearchBox() {
         // icon: jsonResponse.weather[0].icon,
       };
       // console.log(result);
-      setWeather(result);
+      // setWeather(result);
     // } else {
       alert("City not found. Please enter a valid city name.");
       setWeather(null);
