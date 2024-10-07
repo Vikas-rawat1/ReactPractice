@@ -37,7 +37,7 @@ function SearchBox() {
 
   // console.log(city);
 
-  // let handleOnSubmit = (e) => {
+  let handleOnSubmit = (e) => {
     e.preventDefault();
     // console.log(city);
     // getWeatherInfo();
