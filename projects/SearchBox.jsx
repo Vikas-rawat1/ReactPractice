@@ -44,7 +44,7 @@ function SearchBox() {
     setCity("");
   };
   return (
-    <>
+    // <>
       <div
         style={{
           // marginLeft: "3vw",
