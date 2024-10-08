@@ -61,7 +61,7 @@ function SearchBox() {
             id="city"
             label="City Name"
             variant="outlined"
-            // value={city}
+            value={city}
             onChange={(e) => setCity(e.target.value)}
           />
           <Button
