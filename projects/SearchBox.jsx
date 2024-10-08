@@ -4,7 +4,7 @@
 // import InfoBox from "./InfoBox";
 function SearchBox() {
   const [city, setCity] = useState("");
-  // const [weather, setWeather] = useState(null);
+  const [weather, setWeather] = useState(null);
 
   const API_URL =
     // "https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}";
