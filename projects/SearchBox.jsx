@@ -3,7 +3,7 @@
 // import { Button } from "@mui/material";
 // import InfoBox from "./InfoBox";
 // function SearchBox() {
-  // const [city, setCity] = useState("");
+  const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
 
   const API_URL =
