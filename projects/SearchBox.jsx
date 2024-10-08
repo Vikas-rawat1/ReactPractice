@@ -22,7 +22,7 @@ function SearchBox() {
         // city: jsonResponse.name,
         // temp: jsonResponse.main.temp,
         // tempMax: jsonResponse.main.temp_max,
-        // tempMin: jsonResponse.main.temp_min,
+        tempMin: jsonResponse.main.temp_min,
         // humidity: jsonResponse.main.humidity,
         // weather: jsonResponse.weather[0].description,
         // icon: jsonResponse.weather[0].icon,
