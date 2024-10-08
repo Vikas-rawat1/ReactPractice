@@ -51,7 +51,7 @@ function SearchBox() {
 
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
+          // justifyContent: "center",
           alignItems: "center",
           gap: "2vw",
           margin: "auto",
