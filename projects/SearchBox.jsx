@@ -20,7 +20,7 @@ function SearchBox() {
     if (response.ok) {
       let result = {
         // city: jsonResponse.name,
-        // temp: jsonResponse.main.temp,
+        temp: jsonResponse.main.temp,
         tempMax: jsonResponse.main.temp_max,
         tempMin: jsonResponse.main.temp_min,
         // humidity: jsonResponse.main.humidity,
