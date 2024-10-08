@@ -60,7 +60,7 @@ function SearchBox() {
           <TextField
             id="city"
             label="City Name"
-            variant="outlined"
+            // variant="outlined"
             // value={city}
             onChange={(e) => setCity(e.target.value)}
           />
