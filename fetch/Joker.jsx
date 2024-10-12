@@ -5,7 +5,7 @@
   // const [joke, setJoke] = useState(null);
   // const URL = "https://official-joke-api.appspot.com/random_joke";
   // const newJoke = async () => {
-    // const response = await fetch(URL);
+    const response = await fetch(URL);
     const jsonResponse = await response.json();
     // console.log(jsonResponse.setup && jsonResponse.punchline);
     console.log(jsonResponse);
