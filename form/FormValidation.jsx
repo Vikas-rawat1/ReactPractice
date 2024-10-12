@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const FormValidation = () => {
   return (
     <div>
-      
       <label htmlFor="fullName">Full Name</label>
       <input
         type="text"
@@ -14,7 +13,7 @@ const FormValidation = () => {
       />
       <button>Submit</button>
     </div>
-  )
-}
+  );
+};
 
-export default FormValidation
+export default FormValidation;
