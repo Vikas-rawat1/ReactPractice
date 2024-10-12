@@ -9,7 +9,7 @@ const FormValidation = () => {
   };
 
   return (
-    //THIS IS CLIENT SIDE VALIDATION
+    //THIS IS CLIENT SIDE VALIDATIO
 
     <div style={{ marginTop: "2vw", marginLeft: "2vw" }}>
       <label htmlFor="fullName">Full Name</label>
