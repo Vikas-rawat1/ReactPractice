@@ -1,7 +1,7 @@
 // import React, { useEffect } from "react";
 // import { useState } from "react";
 //use case of useEffect 
-function Joker() {
+// function Joker() {
   const [joke, setJoke] = useState(null);
   const URL = "https://official-joke-api.appspot.com/random_joke";
   const newJoke = async () => {
