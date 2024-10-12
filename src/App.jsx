@@ -6,6 +6,7 @@ import Button from "./components/ClickEvents/Buttons";
 import Form from "./components/ClickEvents/Form";
 import SearchBox from "../projects/SearchBox";
 import MaterialDemo from "../projects/MaterialDemo";
+import FormValidation from "../form/FormValidation";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       {/* <Form/> */}
       {/* <MaterialDemo/> */}
       {/* <SearchBox/> */}
+      <FormValidation/>
     </>
   );
 }
