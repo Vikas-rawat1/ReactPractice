@@ -11,7 +11,7 @@ const FormValidation = () => {
   return (
     //THIS IS CLIENT SIDE VALIDATION
 
-    <div style={{ marginTop: "2vw", marginLeft: "2vw" }}>
+    <div style={{ marginTop: "2vw",   marginLeft: "2vw" }}>
       <label htmlFor="fullName">Full Name</label>
       <br />
       <form action="">
