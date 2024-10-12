@@ -32,7 +32,7 @@ const FormValidation = () => {
             padding: ".5vw",
             borderRadius: ".7vw",
           }}
-        >
+        > 
           Submit
         </button>
       </form>
