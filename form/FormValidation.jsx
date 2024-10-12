@@ -9,15 +9,18 @@ const FormValidation = () => {
   };
 
   return (
-    <div>
+    <div style={{ marginTop: "2vw" }}>
       <label htmlFor="fullName">Full Name</label>
+      <br />
       <input
         type="text"
         placeholder="Enter text"
         id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
         value={fullName}
         onChange={handleFullName}
+        required
       />
+      <br />
       <button>Submit</button>
     </div>
   );
