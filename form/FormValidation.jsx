@@ -9,11 +9,11 @@ const FormValidation = () => {
   };
 
   return (
-    <div style={{ marginTop: "2vw" ,marginLeft:"2vw"}}>
+    <div style={{ marginTop: "2vw", marginLeft: "2vw" }}>
       <label htmlFor="fullName">Full Name</label>
       <br />
       <input
-      style={{border: "1px solid black"}}
+        style={{ border: "1px solid black" }}
         type="text"
         placeholder="Enter text"
         id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
@@ -22,7 +22,16 @@ const FormValidation = () => {
         required
       />
       <br />
-      <button>Submit</button>
+      <button
+        style={{
+          marginTop: "1vw",
+          background: "blue",
+          padding: ".5vw",
+          borderRadius: ".7vw",
+        }}
+      >
+        Submit
+      </button>
     </div>
   );
 };
