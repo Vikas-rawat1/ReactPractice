@@ -24,7 +24,6 @@ const FormValidation = () => {
           onChange={handleFullName}
           required
         />
-        
         <br />
         <button
           style={{
