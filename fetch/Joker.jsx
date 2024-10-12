@@ -1,5 +1,5 @@
 // import React, { useEffect } from "react";
-// import { useState } from "react";
+import { useState } from "react";
 //use case of useEffect 
 function Joker() {
   const [joke, setJoke] = useState(null);
