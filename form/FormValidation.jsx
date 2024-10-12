@@ -13,7 +13,7 @@ const FormValidation = () => {
       <label htmlFor="fullName">Full Name</label>
       <br />
       <input
-        style={{ border: "1px solid black" }}
+        style={{marginTop:".5vw", border: "1px solid black" }}
         type="text"
         placeholder="Enter text"
         id="fullName" //🌟🌟 id dene se jaise hi ham username pe click karenege to username HIGHLIGHT ho jayega
