@@ -16,7 +16,7 @@ function Joker() {
     async function getNewJoke() {
       const response = await fetch(URL); 
       const jsonRespone = await response.json(); 
-      console.log(jsonRespone); 
+      console.log(jsonRespone);
       setJoke({ setup: jsonRespone.setup, punchline: jsonRespone.punchline });
     }
     getNewJoke(); //useEffect me ()=>{} arrow function se hi ham define karte hai async function ko agar nahi karenge to error dega and arrow function ke baad hame use hi call karna padta hai
