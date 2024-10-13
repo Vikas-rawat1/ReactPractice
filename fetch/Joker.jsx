@@ -14,7 +14,7 @@ function Joker() {
 
   useEffect(() => {
     async function getNewJoke() {
-      const response = await fetch(URL);
+      const response = await fetch(URL); 
       const jsonRespone = await response.json();
       console.log(jsonRespone);
       setJoke({ setup: jsonRespone.setup, punchline: jsonRespone.punchline });
