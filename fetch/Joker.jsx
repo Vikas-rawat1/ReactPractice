@@ -23,7 +23,7 @@ function Joker() {
   }, []);
   return ( 
     <>   
-      <h1 style={{ textAlign: "center" }}>Jokes</h1>
+      <h1 style={{ textAlign: "c enter" }}>Jokes</h1>
       <div style={{ textAlign: "center" }}>
         {joke && (
           <>
