@@ -21,7 +21,7 @@ function Joker() {
     }
     getNewJoke(); //useEffect me ()=>{} arrow function se hi ham define karte hai async function ko agar nahi karenge to error dega and arrow function ke baad hame use hi call karna padta hai
   }, []);
-  return (         
+  return (
     <>
       <h1 style={{ textAlign: "center" }}>Jokes</h1>
       <div style={{ textAlign: "center" }}>
