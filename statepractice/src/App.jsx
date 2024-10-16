@@ -14,7 +14,7 @@ import Like from "./components/Like";
 import UseEffect from "../../form/UseEffect";
 import Joker from "../../fetch/Joker";
 
-function App() {
+function App() { 
   return (
     <>
       {/* <Counter /> */}
