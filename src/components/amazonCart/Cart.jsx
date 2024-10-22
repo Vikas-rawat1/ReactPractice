@@ -3,8 +3,8 @@ import React from "react";
 function Cart() {
   const cartData = [
     {
-      id: 1,
-      title: "Logitech MX Master 3 Wireless Mouse",
+      id: 1, 
+      title: "Logitech MX Master 3 Wireless Mouse", 
       description:
         "Ergonomically designed wireless mouse with customizable buttons, fast scrolling, and advanced tracking.",
       oldPrice: "₹" + 7999,
