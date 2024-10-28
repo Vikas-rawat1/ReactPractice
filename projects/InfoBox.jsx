@@ -5,7 +5,7 @@ function InfoBox({ weather }) {
     padding: "10px",
     marginBottom: "10px",
     boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
-  };
+  }; 
 
   const textStyle = {
     margin: 0,
